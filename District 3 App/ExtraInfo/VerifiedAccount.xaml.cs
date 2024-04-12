@@ -24,5 +24,22 @@ namespace District_3_App.ExtraInfo
         {
             InitializeComponent();
         }
+
+        private void ChooseFreeButton_Click(object sender, RoutedEventArgs e)
+        {
+            //FreeAccountControl.Content = new VerifiedAccount();
+            var newContent = new VerifiedAccount();
+
+            VerifiedAccountGrid.Children.Clear();
+            VerifiedAccountGrid.Children.Add(newContent);
+        }
+
+        private void ChooseBusinessButton_Click(object sender, RoutedEventArgs e)
+        {
+            var paymentForm = new PaymentForm();
+
+            VerifiedAccountGrid.Children.Clear();
+            VerifiedAccountGrid.Children.Add(paymentForm);
+        }
     }
 }

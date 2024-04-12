@@ -6,7 +6,151 @@
              xmlns:local="clr-namespace:District_3_App.ExtraInfo"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+    <Grid HorizontalAlignment="Stretch" Height="Auto" Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Margin="10">
+            <TextBlock Text="not our problem"/>
+        </Grid>
+        <Grid Grid.Column="1" Margin="10">
+            <TextBlock Text="Extra Info" Foreground="#343B42" FontWeight="Bold" FontSize="20" Margin="10 10 0 0"></TextBlock>
+            <Button x:Name="EditProfileButton" Click="EditProfileButton_Click" Height="28" Background="White" Foreground="#47525E" BorderThickness="0" HorizontalContentAlignment="Left" Margin="0,69,0,333">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="E:\facultate\Sem4\software engineering\lab4\user.png" Width="16" Height="16" Margin="0,0,4,0" Grid.Column="0"/>
+                    <TextBlock Text="Edit Profile" FontSize="8" Grid.Column="1"/>
+                </Grid>
+            </Button>
+            <Button x:Name="SettingsPrivacyButton" Click="SettingsPrivacyButton_Click" Height="28" Background="White" Foreground="#47525E" BorderBrush="DarkGray" BorderThickness="0" HorizontalContentAlignment="Left" Margin="0,97,0,305">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="E:\facultate\Sem4\software engineering\lab4\settings.png" Width="16" Height="16" Margin="0,0,4,0" Grid.Column="0" />
+                    <TextBlock Text="Settings and Privacy" FontSize="8" Grid.Column="1"/>
+                </Grid>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button  x:Name="StatisticsButton" Click="StatisticsButton_Click" Height="28" Background="White" Foreground="#47525E"  BorderBrush="DarkGray" BorderThickness="0" HorizontalContentAlignment="Left" Margin="0,125,0,277">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="E:\facultate\Sem4\software engineering\lab4\statistics.png" Width="16" Height="16" Margin="0,0,4,0" Grid.Column="0"/>
+                    <TextBlock Text="Statistics" FontSize="8" Grid.Column="1"/>
+                </Grid>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="FancierProfileButton" Click="FancierProfileButton_Click" Height="28" Background="White" Foreground="#47525E"  BorderBrush="DarkGray" BorderThickness="0" HorizontalContentAlignment="Left" Margin="0,158,0,244">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="E:\facultate\Sem4\software engineering\lab4\fancierProfile.png" Width="16" Height="16" Margin="0,0,4,0" Grid.Column="0"/>
+                    <TextBlock Text="Fancier Profile" FontSize="8" TextAlignment="Left" Grid.Column="1"/>
+                </Grid>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="SavedPostsButton" Click="SavedPostsButton_Click" Height="28" Background="White" Foreground="#47525E" BorderBrush="DarkGray" BorderThickness="0" HorizontalContentAlignment="Left" Margin="0,186,0,216">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="E:\facultate\Sem4\software engineering\lab4\saved.png" Width="16" Height="16" Margin="0,0,4,0" Grid.Column="0"/>
+                    <TextBlock Text="Saved" FontSize="8" TextAlignment="Left" Grid.Column="1"/>
+                </Grid>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="CloseFriendsButton" Click="CloseFriendsButton_Click" Height="28" Background="White" Foreground="#47525E" BorderBrush="DarkGray" BorderThickness="0" HorizontalContentAlignment="Left" Margin="0,214,0,188">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="E:\facultate\Sem4\software engineering\lab4\closeFriends.png" Width="16" Height="16" Margin="0,0,4,0" Grid.Column="0"/>
+                    <TextBlock Text="Close Friends" FontSize="8" Grid.Column="1"/>
+                </Grid>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="VerifiedAccountButton" Click="VerifiedAccountButton_Click" Height="28" Background="White" Foreground="#47525E" BorderBrush="DarkGray" BorderThickness="0" HorizontalContentAlignment="Left" Margin="0,242,0,160">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="E:\facultate\Sem4\software engineering\lab4\verify.png" Width="16" Height="16" Margin="0,0,4,0" Grid.Column="0"/>
+                    <TextBlock Text="Verified Account" FontSize="8" Grid.Column="1"/>
+                </Grid>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="FriendsSettingsButton" Click="FriendsSettingsButton_Click" Height="28" Background="White" Foreground="#47525E" BorderBrush="DarkGray" BorderThickness="0" HorizontalContentAlignment="Left" Margin="0,270,0,132">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="E:\facultate\Sem4\software engineering\lab4\friends.png" Width="16" Height="16" Margin="0,0,4,0" Grid.Column="0"/>
+                    <TextBlock Text="Friends Settings" FontSize="8" Grid.Column="1"/>
+                </Grid>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="LikedPostsButton" Click="LikedPostsButton_Click" Height="28" Background="White" Foreground="#47525E" BorderBrush="DarkGray" BorderThickness="0" HorizontalContentAlignment="Left" Margin="0,298,0,104">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="E:\facultate\Sem4\software engineering\lab4\likedPosts.png" Width="16" Height="16" Margin="0,0,4,0" Grid.Column="0"/>
+                    <TextBlock Text="Liked Posts" FontSize="8" Grid.Column="1"/>
+                </Grid>
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="4"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Line X1="124" Y1="-505" X2="124" Y2="800" Stroke="#8492A6" StrokeThickness="1" VerticalAlignment="Stretch"/>
+        </Grid>
+        <Grid Grid.Column="2" Margin="10">
+        </Grid>
+        <ContentControl x:Name="VerifiedAccountControl" Grid.ColumnSpan="2" Margin="0,0,10,0"></ContentControl>
     </Grid>
 </UserControl>
