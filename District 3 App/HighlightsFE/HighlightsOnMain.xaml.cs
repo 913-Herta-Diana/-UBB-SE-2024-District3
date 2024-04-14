@@ -42,7 +42,7 @@ namespace District_3_App.HighlightsFE
 
             if (highlights == null || highlights.Count == 0)
             {
-                MessageBox.Show("No highlights found.");
+                Console.WriteLine("No highlights found.");
             }
 
             Highlights = new List<HighlightInfo>();
