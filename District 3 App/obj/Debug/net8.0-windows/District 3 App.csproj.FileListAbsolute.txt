@@ -1,203 +1,87 @@
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\bin\Debug\net8.0-windows\District 3 App.exe
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\bin\Debug\net8.0-windows\District 3 App.deps.json
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\bin\Debug\net8.0-windows\District 3 App.runtimeconfig.json
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\bin\Debug\net8.0-windows\District 3 App.dll
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\bin\Debug\net8.0-windows\District 3 App.pdb
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.cache
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.lref
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App.g.resources
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App.AssemblyInfoInputs.cache
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App.AssemblyInfo.cs
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App.csproj.CoreCompileInputs.cache
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App.sourcelink.json
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App.dll
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\refint\District 3 App.dll
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App.pdb
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\District 3 App.genruntimeconfig.cache
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\ref\District 3 App.dll
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl1.g.cs
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl2.g.cs
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl3.g.cs
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl4.g.cs
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl5.g.cs
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl6.g.cs
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl1.baml
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl2.baml
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl3.baml
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl4.baml
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl5.baml
-C:\Users\oanam\OneDrive\Documents\d3\District 3 App\obj\Debug\net8.0-windows\UserControl6.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.exe
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.deps.json
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.runtimeconfig.json
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.dll
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.pdb
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\ExtraInfo.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentConfirmed.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentForm.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\VerifiedAccount.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\MainWindow.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl1.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl2.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl3.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl4.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl5.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl6.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\App.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.cache
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.lref
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\ExtraInfo.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentConfirmed.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentForm.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\VerifiedAccount.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\MainWindow.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl1.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl2.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl3.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl4.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl5.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl6.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.g.resources
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.GeneratedMSBuildEditorConfig.editorconfig
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.AssemblyInfoInputs.cache
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.AssemblyInfo.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.csproj.CoreCompileInputs.cache
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.sourcelink.json
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.dll
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\refint\District 3 App.dll
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.pdb
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.genruntimeconfig.cache
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ref\District 3 App.dll
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\bin\Debug\net8.0-windows\District 3 App.exe
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\bin\Debug\net8.0-windows\District 3 App.deps.json
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\bin\Debug\net8.0-windows\District 3 App.runtimeconfig.json
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\bin\Debug\net8.0-windows\District 3 App.dll
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\bin\Debug\net8.0-windows\District 3 App.pdb
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\ExtraInfo.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\MainWindow.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentConfirmed.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentForm.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\VerifiedAccount.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl1.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl2.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl3.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl4.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl5.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl6.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.cache
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.lref
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\ExtraInfo.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\MainWindow.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentConfirmed.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentForm.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\VerifiedAccount.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl1.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl2.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl3.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl4.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl5.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\UserControl6.baml
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App.g.resources
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App.AssemblyInfoInputs.cache
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App.AssemblyInfo.cs
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App.csproj.CoreCompileInputs.cache
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App.sourcelink.json
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App.dll
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\refint\District 3 App.dll
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App.pdb
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\District 3 App.genruntimeconfig.cache
-C:\Users\oanam\OneDrive\Documents\d3-iii\District 3 App\obj\Debug\net8.0-windows\ref\District 3 App.dll
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\LikedPosts.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\Statistics.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\LikedPosts.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\Statistics.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\FancierProfilePage.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\CreateNewHighlight.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\HighlightsOnMain.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SeeHighlightPosts.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectHighlight.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectPostsPage.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\FancierProfilePage.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\CreateNewHighlight.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\HighlightsOnMain.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SeeHighlightPosts.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectHighlight.baml
-E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectPostsPage.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.dll
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.exe
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.deps.json
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.runtimeconfig.json
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.pdb
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\ExtraInfo.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentConfirmed.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentForm.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\VerifiedAccount.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\FancierProfilePage.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\CreateNewHighlight.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\HighlightsOnMain.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SeeHighlightPosts.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectHighlight.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectPostsPage.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\LikedPosts.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\Statistics.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl1.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl2.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl3.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl4.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl5.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl6.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.cache
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.lref
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\ExtraInfo.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentConfirmed.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentForm.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\VerifiedAccount.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\FancierProfilePage.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\CreateNewHighlight.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\HighlightsOnMain.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SeeHighlightPosts.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectHighlight.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectPostsPage.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\LikedPosts.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\Statistics.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl1.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl2.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl3.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl4.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl5.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl6.baml
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.g.resources
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.AssemblyInfoInputs.cache
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.AssemblyInfo.cs
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.csproj.CoreCompileInputs.cache
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.sourcelink.json
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.dll
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\refint\District 3 App.dll
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.pdb
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.genruntimeconfig.cache
-C:\Users\40723\Source\Repos\913-Herta-Diana\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ref\District 3 App.dll
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.exe
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.deps.json
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.runtimeconfig.json
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.dll
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.pdb
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\CloseFriends_GUI\CloseFriendsSection_UserControl.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\ExtraInfo.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentConfirmed.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentForm.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\TestSth.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\VerifiedAccount.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\FancierProfilePage.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\CreateNewHighlight.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\HighlightsOnMain.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SeeHighlightPosts.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectHighlight.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectPostsPage.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\ForgotPasswordPage.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignIn.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignUpPage.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\Window1.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Settings_Privacy_GUI\MantainGroups.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Settings_Privacy_GUI\SettingsPrivacy_UserControl.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\LikedPosts.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\Statistics.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl1.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl2.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl3.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl4.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl5.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl6.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\App.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.cache
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.lref
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\CloseFriends_GUI\CloseFriendsSection_UserControl.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\ExtraInfo.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentConfirmed.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentForm.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\TestSth.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\VerifiedAccount.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\FancierProfilePage.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\CreateNewHighlight.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\HighlightsOnMain.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SeeHighlightPosts.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectHighlight.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectPostsPage.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\ForgotPasswordPage.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignIn.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignUpPage.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\Window1.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\MainWindow.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Settings_Privacy_GUI\MantainGroups.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Settings_Privacy_GUI\SettingsPrivacy_UserControl.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\LikedPosts.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\Statistics.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl1.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl2.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl3.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl4.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl5.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl6.baml
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.g.resources
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.GeneratedMSBuildEditorConfig.editorconfig
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.AssemblyInfoInputs.cache
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.AssemblyInfo.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.csproj.CoreCompileInputs.cache
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.sourcelink.json
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.dll
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\refint\District 3 App.dll
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.pdb
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.genruntimeconfig.cache
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ref\District 3 App.dll
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.exe
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.deps.json
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.runtimeconfig.json
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.dll
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\bin\Debug\net8.0-windows\District 3 App.pdb
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\CloseFriends_GUI\CloseFriendsSection_UserControl.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\ExtraInfo.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentConfirmed.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentForm.g.cs
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\TestSth.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\VerifiedAccount.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\FancierProfilePage.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\CreateNewHighlight.g.cs
@@ -205,11 +89,13 @@ C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Hig
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SeeHighlightPosts.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectHighlight.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectPostsPage.g.cs
-C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\ForgotPasswordPage.g.cs
-C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignIn.g.cs
-C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignUpPage.g.cs
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\ForgotPassword.g.cs
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignInPage.g.cs
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignUp.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\Window1.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Settings_Privacy_GUI\MantainGroups.g.cs
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Settings_Privacy_GUI\SettingsPrivacy_UserControl.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\LikedPosts.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\Statistics.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl1.g.cs
@@ -222,9 +108,11 @@ C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\App
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.cache
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App_MarkupCompile.lref
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\CloseFriends_GUI\CloseFriendsSection_UserControl.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\ExtraInfo.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentConfirmed.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\PaymentForm.baml
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\TestSth.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ExtraInfo\VerifiedAccount.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\FancierProfilePage.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\CreateNewHighlight.baml
@@ -232,11 +120,13 @@ C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Hig
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SeeHighlightPosts.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectHighlight.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\HighlightsFE\SelectPostsPage.baml
-C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\ForgotPasswordPage.baml
-C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignIn.baml
-C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignUpPage.baml
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\ForgotPassword.baml
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignInPage.baml
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignUp.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\Window1.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Settings_Privacy_GUI\MantainGroups.baml
+C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Settings_Privacy_GUI\SettingsPrivacy_UserControl.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\LikedPosts.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\Statistics\Statistics.baml
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\UserControl1.baml
@@ -256,6 +146,7 @@ C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ref
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.pdb
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\District 3 App.genruntimeconfig.cache
 C:\Users\groza\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ref\District 3 App.dll
+<<<<<<< HEAD
 E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\ForgotPasswordPage.g.cs
 E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignIn.g.cs
 E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignUpPage.g.cs
@@ -361,3 +252,10 @@ E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\
 >>>>>>> bb479e8e2e08e81f4b3712c78635c86cc08169b9
 E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\CloseFriends_GUI\CloseFriendsSection_UserControl.g.cs
 E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\CloseFriends_GUI\CloseFriendsSection_UserControl.baml
+=======
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\ForgotPassword.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignInPage.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\LogIn\SignUp.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ProfileInfo-GUI\EditProfileInfo.g.cs
+E:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\ProfileInfo-GUI\ProfileInfoDisplay.g.cs
+>>>>>>> 193ab9da07469e8d3a6313ec613ff1dd5e6efbfc

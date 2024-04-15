@@ -1,5 +1,6 @@
 ﻿using District_3_App.ExtraInfo;
 using District_3_App.HighlightsFE;
+using District_3_App.LogIn;
 using Log_In;
 using System.Text;
 using System.Windows;
@@ -74,9 +75,12 @@ namespace District_3_App
         }
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
-            SignUpPage signupwindow = new SignUpPage();
-            signupwindow.Show();
-            this.Close();
+            mainGrid.Children.Clear();
+            var newContent = new SignUp();
+            Grid.SetColumn(newContent, 2);
+            Grid.SetRow(newContent, 0);
+            Grid.SetRowSpan(newContent, 6);
+            mainGrid.Children.Add(newContent);
         }
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {

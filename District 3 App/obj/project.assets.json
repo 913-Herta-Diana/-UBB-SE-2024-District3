@@ -14,11 +14,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "E:\\facultate\\Sem4\\software engineering\\app\\UBB-SE-2024-District3\\District 3 App\\District 3 App.csproj",
       "projectName": "District 3 App",
       "projectPath": "E:\\facultate\\Sem4\\software engineering\\app\\UBB-SE-2024-District3\\District 3 App\\District 3 App.csproj",
       "packagesPath": "C:\\Users\\Ines\\.nuget\\packages\\",
       "outputPath": "E:\\facultate\\Sem4\\software engineering\\app\\UBB-SE-2024-District3\\District 3 App\\obj\\",
+=======
+      "projectUniqueName": "E:\\facultate\\Sem4\\app\\UBB-SE-2024-District3\\District 3 App\\District 3 App.csproj",
+      "projectName": "District 3 App",
+      "projectPath": "E:\\facultate\\Sem4\\app\\UBB-SE-2024-District3\\District 3 App\\District 3 App.csproj",
+      "packagesPath": "C:\\Users\\Ines\\.nuget\\packages\\",
+      "outputPath": "E:\\facultate\\Sem4\\app\\UBB-SE-2024-District3\\District 3 App\\obj\\",
+>>>>>>> 193ab9da07469e8d3a6313ec613ff1dd5e6efbfc
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

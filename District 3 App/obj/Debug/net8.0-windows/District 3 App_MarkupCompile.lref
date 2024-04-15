@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< HEAD
 FE:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\CloseFriends_GUI\CloseFriendsSection_UserControl.xaml;;
 FE:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\ExtraInfo\ExtraInfo.xaml;;
 FE:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\ExtraInfo\PaymentConfirmed.xaml;;
@@ -27,4 +28,35 @@ FE:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App
 FE:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\UserControl4.xaml;;
 FE:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\UserControl5.xaml;;
 FE:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\UserControl6.xaml;;
+=======
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\CloseFriends_GUI\CloseFriendsSection_UserControl.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\ExtraInfo\ExtraInfo.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\ExtraInfo\PaymentConfirmed.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\ExtraInfo\PaymentForm.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\ExtraInfo\TestSth.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\ExtraInfo\VerifiedAccount.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\FancierProfilePage.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\HighlightsFE\CreateNewHighlight.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\HighlightsFE\HighlightsOnMain.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\HighlightsFE\SeeHighlightPosts.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\HighlightsFE\SelectHighlight.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\HighlightsFE\SelectPostsPage.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\LogIn\ForgotPassword.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\LogIn\SignInPage.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\LogIn\SignUp.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\LogIn\Window1.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\MainWindow.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\ProfileInfo-GUI\EditProfileInfo.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\ProfileInfo-GUI\ProfileInfoDisplay.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\Settings_Privacy_GUI\MantainGroups.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\Settings_Privacy_GUI\SettingsPrivacy_UserControl.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\Statistics\LikedPosts.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\Statistics\Statistics.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\UserControl1.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\UserControl2.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\UserControl3.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\UserControl4.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\UserControl5.xaml;;
+FE:\facultate\Sem4\app\UBB-SE-2024-District3\District 3 App\UserControl6.xaml;;
+>>>>>>> 193ab9da07469e8d3a6313ec613ff1dd5e6efbfc
 

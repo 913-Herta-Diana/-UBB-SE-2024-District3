@@ -141,7 +141,12 @@ namespace District_3_App.ExtraInfo
 
         private void EditProfileButton_Click(object sender, RoutedEventArgs e)
         {
-
+            var profileInfo = new ProfileInfo_GUI.ProfileInfoDisplay();
+            Grid.SetColumn(profileInfo, 1);
+            Grid.SetRow(profileInfo, 1);
+            Grid.SetRowSpan(profileInfo, 4);
+            //.Children.Clear();
+            extraInfoGrid.Children.Add(profileInfo);
         }
 
         private void SettingsPrivacyButton_Click(object sender, RoutedEventArgs e)
