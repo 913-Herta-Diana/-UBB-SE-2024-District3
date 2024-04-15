@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Sergiu\Desktop\iss_github_HW4\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\
+E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\
 District_3_App
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Sergiu\Desktop\iss_github_HW4\UBB-SE-2024-District3\District 3 App\App.xaml
+E:\facultate\Sem4\software engineering\app\UBB-SE-2024-District3\District 3 App\App.xaml
 27-755521280
 
 52-1850061349
 198155382431
 CloseFriends_GUI\CloseFriendsSection_UserControl.xaml;ExtraInfo\ExtraInfo.xaml;ExtraInfo\PaymentConfirmed.xaml;ExtraInfo\PaymentForm.xaml;ExtraInfo\TestSth.xaml;ExtraInfo\VerifiedAccount.xaml;FancierProfilePage.xaml;HighlightsFE\CreateNewHighlight.xaml;HighlightsFE\HighlightsOnMain.xaml;HighlightsFE\SeeHighlightPosts.xaml;HighlightsFE\SelectHighlight.xaml;HighlightsFE\SelectPostsPage.xaml;LogIn\ForgotPasswordPage.xaml;LogIn\SignIn.xaml;LogIn\SignUpPage.xaml;LogIn\Window1.xaml;MainWindow.xaml;Settings_Privacy_GUI\MantainGroups.xaml;Settings_Privacy_GUI\SettingsPrivacy_UserControl.xaml;Statistics\LikedPosts.xaml;Statistics\Statistics.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;UserControl4.xaml;UserControl5.xaml;UserControl6.xaml;
 
-True
+False
 

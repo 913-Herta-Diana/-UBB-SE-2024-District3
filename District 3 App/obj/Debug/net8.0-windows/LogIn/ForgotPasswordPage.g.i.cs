@@ -85,7 +85,7 @@ namespace Log_In {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/District 3 App;V1.0.0.0;component/login/forgotpasswordpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/District 3 App;component/login/forgotpasswordpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\LogIn\ForgotPasswordPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

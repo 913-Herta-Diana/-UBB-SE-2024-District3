@@ -65,6 +65,7 @@ namespace District_3_App.ExtraInfo
                 var newContent = new PaymentConfirmed();
 
                 CompleteGrid.Children.Clear();
+                Grid.SetColumn(newContent, 1);
                 CompleteGrid.Children.Add(newContent);
             }
         }
