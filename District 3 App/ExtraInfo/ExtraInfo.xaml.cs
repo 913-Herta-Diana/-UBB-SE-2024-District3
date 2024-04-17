@@ -164,7 +164,6 @@ namespace District_3_App.ExtraInfo
             Grid.SetColumn(profileInfo, 1);
             Grid.SetRow(profileInfo, 1);
             Grid.SetRowSpan(profileInfo, 4);
-            //.Children.Clear();
             extraInfoGrid.Children.Add(profileInfo);
         }
 
@@ -174,7 +173,6 @@ namespace District_3_App.ExtraInfo
             Grid.SetColumn(settingsPrivacyUserControl, 1);
             Grid.SetRow(settingsPrivacyUserControl, 1);
             Grid.SetRowSpan(settingsPrivacyUserControl, 4);
-            //extraInfoGrid.Children.Clear();
             extraInfoGrid.Children.Add(settingsPrivacyUserControl);
         }
 
@@ -184,7 +182,6 @@ namespace District_3_App.ExtraInfo
             Grid.SetColumn(paymentForm, 1);
             Grid.SetRow(paymentForm, 1);
             Grid.SetRowSpan(paymentForm, 4);
-            //.Children.Clear();
             extraInfoGrid.Children.Add(paymentForm);
         }
 
@@ -199,14 +196,12 @@ namespace District_3_App.ExtraInfo
             Grid.SetColumn(closeFriendsUserControl, 1);
             Grid.SetRow(closeFriendsUserControl, 1);
             Grid.SetRowSpan(closeFriendsUserControl, 4);
-            //.Children.Clear();
             extraInfoGrid.Children.Add(closeFriendsUserControl);
         }
 
         private void VerifiedAccountButton_Click(object sender, RoutedEventArgs e)
         {
             var newContent = new VerifiedAccount(profileNetworkInfoService);
-            //extraInfoGrid.Children.Clear();
             extraInfoGrid.Children.Add(newContent);
             Grid.SetColumn(newContent, 1);
             Grid.SetRow(newContent, 1);
@@ -216,37 +211,23 @@ namespace District_3_App.ExtraInfo
 
         private void FriendsSettingsButton_Click(object sender, RoutedEventArgs e)
         {
-            /*var friends = new FriendsSettings.Friends();
-            //extraInfoGrid.Children.Clear();
-            Grid.SetColumn(friends, 1);
-            Grid.SetRow(friends, 1);
-            Grid.SetRowSpan(friends, 4);
-            extraInfoGrid.Children.Add(friends);*/
-
-            // Collect the controls that need to be removed from the specified column
             List<UIElement> elementsToRemove = new List<UIElement>();
 
-            // Iterate through the children of the extraInfoGrid
             foreach (UIElement child in extraInfoGrid.Children)
             {
-                // Get the column index of the current child
                 int columnIndex = Grid.GetColumn(child);
 
-                // Check if the child is located in the target column (column 1 in this case)
                 if (columnIndex == 1)
                 {
-                    // Add the child to the list of elements to remove
                     elementsToRemove.Add(child);
                 }
             }
 
-            // Remove all elements collected in the elementsToRemove list from the grid
             foreach (UIElement element in elementsToRemove)
             {
                 extraInfoGrid.Children.Remove(element);
             }
 
-            // Create and add the new FriendsSettings.Friends control to the specified column
             var friends = new FriendsSettings.Friends();
             Grid.SetColumn(friends, 1);
             Grid.SetRow(friends, 1);
@@ -260,7 +241,6 @@ namespace District_3_App.ExtraInfo
             Grid.SetColumn(likedPosts, 1);
             Grid.SetRow(likedPosts, 1);
             Grid.SetRowSpan(likedPosts, 4);
-            //extraInfoGrid.Children.Clear();
             extraInfoGrid.Children.Add(likedPosts);
         }
 
@@ -270,7 +250,6 @@ namespace District_3_App.ExtraInfo
             Grid.SetColumn(statistics, 1);
             Grid.SetRow(statistics, 1);
             Grid.SetRowSpan(statistics, 4);
-            //extraInfoGrid.Children.Clear();
             extraInfoGrid.Children.Add(statistics);
         }
     }
