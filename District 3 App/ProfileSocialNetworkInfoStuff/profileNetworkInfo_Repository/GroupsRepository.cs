@@ -36,6 +36,12 @@ namespace District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Reposi
             List<Group> loadedGroups = new List<Group>();
 
             XmlDocument xmlDoc = new XmlDocument();
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string relativePath = baseDirectory.Substring(0, baseDirectory.IndexOf("bin\\Debug"));
+
+            string currfilePath = System.IO.Path.Combine(relativePath, "ProfileSocialNetworkInfoStuff");
+            filePath = System.IO.Path.Combine(currfilePath, "Groups.xml");
+            
             xmlDoc.Load(filePath);
 
             foreach (XmlNode groupNode in xmlDoc.SelectNodes("//group"))

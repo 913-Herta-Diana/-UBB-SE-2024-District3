@@ -109,7 +109,7 @@ namespace District_3_App.LogIn {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/District 3 App;component/login/forgotpassword.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/District 3 App;V1.0.0.0;component/login/forgotpassword.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\LogIn\ForgotPassword.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

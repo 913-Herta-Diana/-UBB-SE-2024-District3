@@ -101,7 +101,7 @@ namespace District_3_App.ExtraInfo {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/District 3 App;component/extrainfo/paymentform.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/District 3 App;V1.0.0.0;component/extrainfo/paymentform.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\ExtraInfo\PaymentForm.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

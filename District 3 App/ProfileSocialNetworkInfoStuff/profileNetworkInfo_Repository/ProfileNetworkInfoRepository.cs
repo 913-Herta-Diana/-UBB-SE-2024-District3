@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -34,7 +35,15 @@ namespace District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Reposi
         public void LoadProfilesInXML()
         {
             XmlSerializer serializer = new XmlSerializer(typeof(List<UserProfileSocialNetworkInfo>));
-            using (FileStream fileStream = new FileStream("E:\\facultate\\Sem4\\issFinal\\UBB-SE-2024-District3\\District 3 App\\ProfileSocialNetworkInfoStuff\\Profiles.xml", FileMode.Open))
+            XmlDocument xmlDoc = new XmlDocument();
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string relativePath = baseDirectory.Substring(0, baseDirectory.IndexOf("bin\\Debug"));
+
+            string currfilePath = System.IO.Path.Combine(relativePath, "ProfileSocialNetworkInfoStuff");
+            filePath = System.IO.Path.Combine(currfilePath, "Profiles.xml");
+            //MessageBox.Show(filePath);
+
+            using (FileStream fileStream = new FileStream(filePath, FileMode.Open))
             {
                 repositoryList = (List<UserProfileSocialNetworkInfo>)serializer.Deserialize(fileStream);
             }
@@ -44,7 +53,13 @@ namespace District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Reposi
         public void SaveProfilesInXML()
         {
             XmlSerializer serializer = new XmlSerializer(typeof(List<UserProfileSocialNetworkInfo>));
-            using (TextWriter writer = new StreamWriter("E:\\facultate\\Sem4\\issFinal\\UBB-SE-2024-District3\\District 3 App\\ProfileSocialNetworkInfoStuff\\Profiles.xml"))
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string relativePath = baseDirectory.Substring(0, baseDirectory.IndexOf("bin\\Debug"));
+
+            string currfilePath = System.IO.Path.Combine(relativePath, "ProfileSocialNetworkInfoStuff");
+            filePath = System.IO.Path.Combine(currfilePath, "Profiles.xml");
+
+            using (TextWriter writer = new StreamWriter(filePath))
             {
                 serializer.Serialize(writer, repositoryList);
             }

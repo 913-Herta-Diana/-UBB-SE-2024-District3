@@ -61,7 +61,7 @@ namespace District_3_App.HighlightsFE {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/District 3 App;component/highlightsfe/highlightsonmain.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/District 3 App;V1.0.0.0;component/highlightsfe/highlightsonmain.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\HighlightsFE\HighlightsOnMain.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
