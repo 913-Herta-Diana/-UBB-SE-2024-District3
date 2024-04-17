@@ -117,14 +117,6 @@ namespace District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Reposi
             return usersRepositoryList.FirstOrDefault(user => user.username == usernameOrEmail || user.email == usernameOrEmail);
         }
 
-        public bool UsernameExists(string username)
-        {
-            return usersRepositoryList.Any(user => user.username == username);
-        }
 
-        public bool EmailExists(string email)
-        {
-            return usersRepositoryList.Any(user => user.email == email);
-        }
     }
 }

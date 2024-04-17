@@ -23,9 +23,8 @@ namespace District_3_App.LogIn
     public partial class SignUp : UserControl
     {
        public User User { get; set; }
-       private string currentUsername;
 
-        private UsersRepository usersRepository;
+       private UsersRepository usersRepository;
        private UserManager UserManager;
         public SignUp()
         {
@@ -90,7 +89,6 @@ namespace District_3_App.LogIn
         private void SignUpButton_Click(object sender, RoutedEventArgs e)
         {
             bool isValid = true;
-            bool userDoesntExist = true;
 
             if (!ValidateUsername(txtUsername.Text))
             {
@@ -103,17 +101,17 @@ namespace District_3_App.LogIn
                 isValid = false;
             }
 
-            //if (ValidatePassword(txtPassword.Password) == false)
-            //{
-            //    MessageBox.Show("Invalid password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character(/_-.)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            //    isValid = false;
-            //}
+            if (ValidatePassword(txtPassword.Password) == false)
+            {
+                MessageBox.Show("Invalid password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character(/_-.)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                isValid = false;
+            }
 
-            //if (ValidateConfirmPassword(txtConfirmPassword.Password) == false)
-            //{
-            //    MessageBox.Show("Invalid confirmation password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character(/_-.)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            //    isValid = false;
-            //}
+            if (ValidateConfirmPassword(txtConfirmPassword.Password) == false)
+            {
+                MessageBox.Show("Invalid confirmation password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character(/_-.)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                isValid = false;
+            }
 
             if (txtPassword.Password.Equals(txtConfirmPassword.Password) == false)
             {
@@ -123,37 +121,27 @@ namespace District_3_App.LogIn
 
             if (isValid)
             {
-               if (usersRepository.UsernameExists(txtUsername.Text) || usersRepository.EmailExists(txtEmail.Text) || (usersRepository.UsernameExists(txtUsername.Text) && usersRepository.EmailExists(txtEmail.Text)))
-                {
-                    MessageBox.Show("Account already exists.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                    userDoesntExist = false;
+              User newUser = new User
+              { 
+                  id = GenerateRandomUserId(),
+                  username = txtUsername.Text,
+                  email = txtEmail.Text,
+                  password = txtPassword.Password,
+                  confirmationPassword = txtConfirmPassword.Password
+              };
+              try
+              {
+                   usersRepository.AddUser(newUser);
+                   UserManager.StartOrRenewSession(newUser.username); 
+                   ClearSignUpForm();
                 }
-                if (userDoesntExist)
-                {
-                    User newUser = new User
-                    {
-                        id = GenerateRandomUserId(),
-                        username = txtUsername.Text,
-                        email = txtEmail.Text,
-                        password = txtPassword.Password,
-                        confirmationPassword = txtConfirmPassword.Password
-                    };
-                    try
-                    {
-                        usersRepository.AddUser(newUser);
-                        UserManager.StartOrRenewSession(newUser.username);
-                        //UserManager.currentUsername = newUser.username;
-                        ClearSignUpForm();
-                        var newContent = new MainWindow();
-                        newContent.Show();
-                        Window.GetWindow(this).Close();
-                    }
-                    catch (ArgumentException ex)
-                    {
-                        // Handle the case where the username already exists
-                        MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                    }
-                }
+              catch(Exception ex) 
+              {
+                    MessageBox.Show($"Error adding user: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+              }
+              var newContent = new MainWindow();
+              newContent.Show();
+              Window.GetWindow(this).Close();
             }
         }
 
