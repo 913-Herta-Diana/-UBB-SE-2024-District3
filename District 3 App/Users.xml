@@ -1,9 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< Updated upstream
 <UserAccounts>
   <User id="f641b016-0e18-4f35-898c-c6016fe034f4" Username="test_0" Email="test0@yahoo.com" Password="Test-9" ConfirmationPassword="Test-9" />
 	<User id="11111111-1111-1111-1111-111111111111" Username="test_1" Email="test1@yahoo.com" Password="Test-1" ConfirmationPassword="Test-1" />
 	<User id="22222222-2222-2222-2222-222222222222" Username="test_2" Email="test2@yahoo.com" Password="Test-2" ConfirmationPassword="Test-2" />
 	<User id="33333333-3333-3333-3333-333333333333" Username="test_3" Email="test3@gmail.com" Password="Test-3" ConfirmationPassword="Test-3" />
 </UserAccounts>
-
-
+=======
+<UsersAccounts>
+  <User id="f641b016-0e18-4f35-898c-c6016fe034f4" Username="test_0" Email="test0@yahoo.com" Password="Test-9" ConfirmationPassword="Test-9" />
+  <User id="11111111-1111-1111-1111-111111111111" Username="test_1" Email="test1@yahoo.com" Password="Test-1" ConfirmationPassword="Test-1" />
+  <User id="22222222-2222-2222-2222-222222222222" Username="test_2" Email="test2@yahoo.com" Password="Test-2" ConfirmationPassword="Test-2" />
+  <User id="33333333-3333-3333-3333-333333333333" Username="test_3" Email="test3@gmail.com" Password="Test-3" ConfirmationPassword="Test-3" />
+  <User id="32d9a1be-024b-4be0-9dbd-b0956bf97748" Username="user_16" Email="user16@yahoo.com" Password="User16" ConfirmationPassword="User16" />
+  <User id="12020e4d-c564-4a56-a70b-0d04bae92ceb" Username="user_7" Email="user7@gmail.com" Password="User8" ConfirmationPassword="User7" />
+</UsersAccounts>
+>>>>>>> Stashed changes

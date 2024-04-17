@@ -32,7 +32,7 @@ namespace District_3_App.LogIn
             return false;
         }
 
-        public void StartOrRenewSession(string username)
+        private void StartOrRenewSession(string username)
         {
             DateTime expirationTime = DateTime.Now.Add(sessionTimeout);
             sessions[username] = expirationTime;
@@ -41,14 +41,6 @@ namespace District_3_App.LogIn
         public bool IsUserLoggedIn(string username)
         {
             return sessions.ContainsKey(username) && sessions[username] > DateTime.Now;
-        }
-
-        public void LogOutUser(string username)
-        {
-            if (sessions.ContainsKey(username))
-            {
-                sessions.Remove(username);
-            }
         }
 
         private void LoadUsersFromXml(string filePath)
@@ -65,12 +57,11 @@ namespace District_3_App.LogIn
                         email = userElement.Attribute("Email").Value,
                         password = userElement.Attribute("Password").Value,
                         confirmationPassword = userElement.Attribute("ConfirmationPassword").Value,
-                        Usersession = TimeSpan.FromMinutes(0)                     
+                        registrationDate = DateTime.ParseExact(userElement.Attribute("RegistrationDate").Value, "yyyy-MM-dd HH:mm:ss", null)
                     };
                     users.Add(user);
                 }
             }
         }
     }
-}
-
+ }

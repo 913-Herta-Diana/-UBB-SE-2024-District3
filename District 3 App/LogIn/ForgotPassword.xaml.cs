@@ -67,8 +67,8 @@ namespace District_3_App.LogIn
 
             if (!string.IsNullOrWhiteSpace(newEmail) && !string.IsNullOrWhiteSpace(newPassword))
             {
-                if (ValidateNewPassword(newPassword) == true)
-                {
+                //if (ValidateNewPassword(newPassword))
+                //{
                     if (usersRepository.UpdatePassword(newEmail, newPassword))
                     {
                         MessageBox.Show("Password updated successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -80,11 +80,11 @@ namespace District_3_App.LogIn
                     {
                         MessageBox.Show("Email address not found.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                     }
-                }
-                else
-                {
-                    MessageBox.Show("Invalid password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character (/_-.).", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
+                //}
+                //else
+                //{
+                //    MessageBox.Show("Invalid password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character (/_-.).", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                //}
             }
             else
             {
@@ -100,8 +100,11 @@ namespace District_3_App.LogIn
             var hasSpecialChar = new Regex(@"[/\-_.]+");
             var hasMiniMaxChars = new Regex(@".{5,10}");
 
-            bool isNewPasswordValid = hasNumericChar.IsMatch(newPassword) && hasUpperChar.IsMatch(newPassword) && hasLowerChar.IsMatch(newPassword) && hasSpecialChar.IsMatch(newPassword) && hasMiniMaxChars.IsMatch(newPassword);
-            return isNewPasswordValid;
+            if (hasNumericChar.IsMatch(newPassword) && hasUpperChar.IsMatch(newPassword) && hasLowerChar.IsMatch(newPassword) && hasSpecialChar.IsMatch(newPassword) && hasMiniMaxChars.IsMatch(newPassword))
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

@@ -23,34 +23,7 @@ namespace District_3_App
         public MainWindow()
         {
             InitializeComponent();
-            generateFrame();
-            userRepository = new UsersRepository("Users.xml");
-            //LoadUserProfile();
         }
-        //private void LoadUserProfile()
-        //{
-
-        //    string username = "test_0"; // Replace with the actual username
-
-        //    // Get the user from the repository
-        //    User user = userRepository.GetUserByName(username);
-        //    if (user != null)
-        //    {
-        //        // Display the username
-        //        UsernameTextBlock.Text = $"{user.username}";
-
-        //        // Display the followers count
-        //        FollowerCountTextBlock.Text = $"{userRepository.getFollowersCount(username)}";
-
-        //        // Display the following count
-        //        FollowingTextBlock.Text = $"{userRepository.getFollowingCount(username)}";
-        //    }
-        //    else
-        //    {
-        //        // User not found
-        //        MessageBox.Show("User not found.");
-        //    }
-        //}
         private void Button_Click_Home(object sender, RoutedEventArgs e)
         {
             CC.Content = new UserControl6();
@@ -165,6 +138,8 @@ namespace District_3_App
                 AdditionalDescription.Visibility = Visibility.Visible;
                 isDescriptionVisible = true;
             }
+<<<<<<< Updated upstream
+=======
 
             var links = ProfileInfoSettings.GetLinks();
             if (links != null && links.Count >= 1)
@@ -260,6 +235,7 @@ namespace District_3_App
         {
             // Perform your action here
             MessageBox.Show("More2 image clicked!");
+>>>>>>> Stashed changes
         }
     }
 }

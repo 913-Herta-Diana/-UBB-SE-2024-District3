@@ -25,15 +25,12 @@ namespace District_3_App.LogIn
        public User User { get; set; }
 
        private UsersRepository usersRepository;
-       private UserManager UserManager;
         public SignUp()
         {
             InitializeComponent();
             string filePath = "C:\\Users\\groza\\UBB-SE-2024-District3\\District 3 App\\Users.xml";
             usersRepository = new UsersRepository(filePath);
-            UserManager = new UserManager(filePath);
         }
-
         private Guid GenerateRandomUserId()
         {
             return Guid.NewGuid();
@@ -101,19 +98,19 @@ namespace District_3_App.LogIn
                 isValid = false;
             }
 
-            if (ValidatePassword(txtPassword.Password) == false)
-            {
-                MessageBox.Show("Invalid password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character(/_-.)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                isValid = false;
-            }
+            //if (!ValidatePassword(txtPassword.Password))
+            //{
+            //    MessageBox.Show("Invalid password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character(/_-.)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    isValid = false;
+            //}
 
-            if (ValidateConfirmPassword(txtConfirmPassword.Password) == false)
-            {
-                MessageBox.Show("Invalid confirmation password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character(/_-.)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                isValid = false;
-            }
+            //if (!ValidateConfirmPassword(txtConfirmPassword.Password))
+            //{
+            //    MessageBox.Show("Invalid confirmation password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character(/_-.)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    isValid = false;
+            //}
 
-            if (txtPassword.Password.Equals(txtConfirmPassword.Password) == false)
+            if (!(txtPassword.Password.Equals(txtConfirmPassword.Password)))
             {
                 MessageBox.Show("Please choose the same password!.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 isValid = false;
@@ -132,8 +129,7 @@ namespace District_3_App.LogIn
               try
               {
                    usersRepository.AddUser(newUser);
-                   UserManager.StartOrRenewSession(newUser.username); 
-                   ClearSignUpForm();
+                    ClearSignUpForm();
                 }
               catch(Exception ex) 
               {
@@ -200,25 +196,44 @@ namespace District_3_App.LogIn
 
         private bool ValidatePassword(string password) 
         {
-            var hasNumericChar = new Regex(@"[0-9]+");
-            var hasUpperChar = new Regex(@"[A-Z]+");
-            var hasLowerChar = new Regex(@"[a-z]+");
-            var hasSpecialChar = new Regex(@"[/-_.]+");
-            var hasMiniMaxChars = new Regex(@".{5,10}");
+            //var hasNumericChar = new Regex(@"[0-9]+");
+            //var hasUpperChar = new Regex(@"[A-Z]+");
+            //var hasLowerChar = new Regex(@"[a-z]+");
+            //var hasSpecialChar = new Regex(@"[/-_.]+");
+            //var hasMiniMaxChars = new Regex(@".{5,10}");
 
-            bool isPasswordValid = hasNumericChar.IsMatch(password) && hasUpperChar.IsMatch(password) && hasLowerChar.IsMatch(password) && hasSpecialChar.IsMatch(password) && hasMiniMaxChars.IsMatch(password);
+            string pattern = @"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&-+=()])(?=\S+$).{8,20}$";
+
+            // Create a Regex object with the pattern
+            Regex regex = new Regex(pattern);
+
+            // Use the regex.IsMatch method to check if the password matches the pattern
+            bool isPasswordValid = regex.IsMatch(password);
+
             return isPasswordValid;
+            //bool isPasswordValid = hasNumericChar.IsMatch(password) && hasUpperChar.IsMatch(password) && hasLowerChar.IsMatch(password) && hasSpecialChar.IsMatch(password) && hasMiniMaxChars.IsMatch(password);
+            //return isPasswordValid;
         }
 
         private bool ValidateConfirmPassword(string confirmPassword) 
         {
-            var hasNumericChar = new Regex(@"[0-9]+");
-            var hasUpperChar = new Regex(@"[A-Z]+");
-            var hasLowerChar = new Regex(@"[a-z]+");
-            var hasSpecialChar = new Regex(@"[/\-_.]+");
-            var hasMiniMaxChars = new Regex(@".{5,10}");
+            //var hasNumericChar = new Regex(@"[0-9]+");
+            //var hasUpperChar = new Regex(@"[A-Z]+");
+            //var hasLowerChar = new Regex(@"[a-z]+");
+            //var hasSpecialChar = new Regex(@"[/\-_.]+");
+            //var hasMiniMaxChars = new Regex(@".{5,10}");
 
-            bool isConfirmationPasswordValid = hasNumericChar.IsMatch(confirmPassword) && hasUpperChar.IsMatch(confirmPassword) && hasLowerChar.IsMatch(confirmPassword) && hasSpecialChar.IsMatch(confirmPassword) && hasMiniMaxChars.IsMatch(confirmPassword);
+            //bool isConfirmationPasswordValid = hasNumericChar.IsMatch(confirmPassword) && hasUpperChar.IsMatch(confirmPassword) && hasLowerChar.IsMatch(confirmPassword) && hasSpecialChar.IsMatch(confirmPassword) && hasMiniMaxChars.IsMatch(confirmPassword);
+            //return isConfirmationPasswordValid;
+
+            string pattern = @"^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&-+=()])(?=\S+$).{8,20}$";
+
+            // Create a Regex object with the pattern
+            Regex regex = new Regex(pattern);
+
+            // Use the regex.IsMatch method to check if the password matches the pattern
+            bool isConfirmationPasswordValid = regex.IsMatch(confirmPassword);
+
             return isConfirmationPasswordValid;
         }
     }

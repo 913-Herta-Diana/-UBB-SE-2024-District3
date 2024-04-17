@@ -35,9 +35,9 @@ namespace District_3_App.LogIn
         {
             SignInGrid.Children.Clear();
             var newContent = new ForgotPassword();
-            Grid.SetColumn(newContent, 1);
-            Grid.SetRow(newContent, 1);
-            Grid.SetRowSpan(newContent, 6);
+            Grid.SetColumn(newContent, 2);
+            Grid.SetRow(newContent, 0);
+            Grid.SetRowSpan(newContent, 4);
             SignInGrid.Children.Add(newContent);
         }
 
@@ -45,6 +45,9 @@ namespace District_3_App.LogIn
         {
             SignInGrid.Children.Clear();
             var newContent = new SignUp();
+            Grid.SetColumn(newContent, 2);
+            Grid.SetRow(newContent, 0);
+            Grid.SetRowSpan(newContent, 4);
             SignInGrid.Children.Add(newContent);
         }
 
@@ -90,6 +93,58 @@ namespace District_3_App.LogIn
             {
                 MessageBox.Show("Please enter both username/email and password.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+            //bool isValid = true;
+
+            //if(!ValidateUsernameOrEmail(txtUsernameAndEmail.Text)) 
+            //{
+            //    MessageBox.Show("Invalid usernsme or email.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    isValid = false;
+            //}
+
+            //if (!ValidatePassword(txtPassword.Password))
+            //{
+            //    MessageBox.Show("Invalid password. The password's length must be between 5 and 10 characters and must contain at least one uppercase letter, one lowercase letter, one number, and one special character(/_-.)", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    isValid = false;
+            //}
+            //var newContent = new MainWindow();
+            //newContent.Show();
+            //Window.GetWindow(this).Close();     
+           
         }
+
+        //private bool ValidateUsernameOrEmail(string usernameOrEmail)
+        //{
+        //    var hasMiniMaxCharsUsername = new Regex(@".{5,11}");
+        //    var hasNumericChar = new Regex(@"[0-9]+");
+        //    var hasAlphabeticChar = new Regex(@"[A-Za-z]");
+        //    var hasSpecialChar = new Regex(@"[_.]");
+
+        //    if(hasMiniMaxCharsUsername.IsMatch(usernameOrEmail) && hasNumericChar.IsMatch(usernameOrEmail) && hasAlphabeticChar.IsMatch(usernameOrEmail) && hasSpecialChar.IsMatch(usernameOrEmail))
+        //    {
+        //        return true;
+        //    }
+        //    else if (Regex.IsMatch(usernameOrEmail, @"^[^@\s]+@[^@\s]+\.[^@\s]+$", RegexOptions.IgnoreCase))
+        //    {
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        return false;
+        //    }
+
+        //}
+
+
+        //private bool ValidatePassword(string password)
+        //{
+        //    var hasNumericChar = new Regex(@"[0-9]+");
+        //    var hasUpperChar = new Regex(@"[A-Z]+");
+        //    var hasLowerChar = new Regex(@"[a-z]+");
+        //    var hasSpecialChar = new Regex(@"[/-_.]+");
+        //    var hasMiniMaxChars = new Regex(@".{5,10}");
+
+        //    bool isPasswordValid = hasNumericChar.IsMatch(password) && hasUpperChar.IsMatch(password) && hasLowerChar.IsMatch(password) && hasSpecialChar.IsMatch(password) && hasMiniMaxChars.IsMatch(password);
+        //    return isPasswordValid;
+        //}
     }
 }
