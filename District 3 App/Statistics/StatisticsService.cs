@@ -73,7 +73,7 @@ namespace District_3_App.Statistics
                 if (!string.IsNullOrEmpty(username))
                 {
                     // Add user and streak to the dictionary
-                    User user = new User(Guid.NewGuid(), username, "", "", DateTime.Now); // Fill in appropriate values for other properties
+                    User user = new User(Guid.NewGuid(), username, "", "", DateTime.Now.ToString()); // Fill in appropriate values for other properties
                     friends.Add(user, streak);
                 }
             }

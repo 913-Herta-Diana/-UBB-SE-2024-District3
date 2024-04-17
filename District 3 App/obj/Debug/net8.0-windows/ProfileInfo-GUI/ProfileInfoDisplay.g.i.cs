@@ -61,7 +61,7 @@ namespace District_3_App.ProfileInfo_GUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/District 3 App;V1.0.0.0;component/profileinfo-gui/profileinfodisplay.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/District 3 App;component/profileinfo-gui/profileinfodisplay.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\ProfileInfo-GUI\ProfileInfoDisplay.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

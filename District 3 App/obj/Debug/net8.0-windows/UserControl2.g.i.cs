@@ -53,7 +53,7 @@ namespace District_3_App {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/District 3 App;V1.0.0.0;component/usercontrol2.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/District 3 App;component/usercontrol2.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UserControl2.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

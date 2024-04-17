@@ -53,7 +53,7 @@ namespace Statistics {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/District 3 App;V1.0.0.0;component/statistics/likedposts.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/District 3 App;component/statistics/likedposts.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Statistics\LikedPosts.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

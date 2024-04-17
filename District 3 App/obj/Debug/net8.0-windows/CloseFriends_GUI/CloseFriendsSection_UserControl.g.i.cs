@@ -85,8 +85,7 @@ namespace District_3_App.CloseFriends_GUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/District 3 App;V1.0.0.0;component/closefriends_gui/closefriendssection_usercontr" +
-                    "ol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/District 3 App;component/closefriends_gui/closefriendssection_usercontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\CloseFriends_GUI\CloseFriendsSection_UserControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

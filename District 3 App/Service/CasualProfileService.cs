@@ -1,15 +1,8 @@
 ﻿using District_3_App.Enitities.Mocks;
-<<<<<<< HEAD
 using District_3_App.ExtraInfo;
 using District_3_App.LogIn;
 using District_3_App.ProfileSocialNetworkInfoStuff.entities;
-
-
-=======
-using District_3_App.LogIn;
-using District_3_App.ProfileSocialNetworkInfoStuff.entities;
 using District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Service;
->>>>>>> 5728a024134be8d0a96df7e9e719346d3fb27bce
 using System;
 using System.Collections.Generic;
 using System.Linq;
