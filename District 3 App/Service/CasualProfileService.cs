@@ -1,22 +1,8 @@
 ﻿using District_3_App.Enitities.Mocks;
-<<<<<<< HEAD
-//<<<<<<< HEAD
-using District_3_App.ExtraInfo;
-using District_3_App.LogIn;
-using District_3_App.ProfileSocialNetworkInfoStuff.entities;
-
-
-//=======
-using District_3_App.LogIn;
-using District_3_App.ProfileSocialNetworkInfoStuff.entities;
-using District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Service;
-//>>>>>>> 5728a024134be8d0a96df7e9e719346d3fb27bce
-=======
 using District_3_App.ExtraInfo;
 using District_3_App.LogIn;
 using District_3_App.ProfileSocialNetworkInfoStuff.entities;
 using District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Service;
->>>>>>> 961454259c77e5b96d6f11a33db7ddf7e74c0b04
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,11 +26,11 @@ namespace District_3_App.Service
             return null;
         }
         public Guid getConnectedUserId() {
-            UserManager userManager= new UserManager("E:\\facultate\\Sem4\\issFinal\\UBB-SE-2024-District3\\District 3 App\\Users.xml");
+            UserManager userManager= new UserManager("Users.xml");
             IReadOnlyList<User> users=userManager.GetUsers();
             foreach(User user in users)
             {
-                if (userManager.IsUserLoggedIn(user.username))
+                if (userManager.IsUserLoggedIn())
                     return user.id;
             }
             return new Guid("11111111-1111-1111-1111-111111111111");

@@ -23,14 +23,12 @@ namespace District_3_App.LogIn
     public partial class SignUp : UserControl
     {
        public User User { get; set; }
-       private string currentUsername;
-
         private UsersRepository usersRepository;
        private UserManager UserManager;
         public SignUp()
         {
             InitializeComponent();
-            string filePath = "E:\\facultate\\Sem4\\issFinal\\UBB-SE-2024-District3\\District 3 App\\Users.xml";
+            string filePath = "Users.xml";
             usersRepository = new UsersRepository(filePath);
             UserManager = new UserManager(filePath);
         }
@@ -141,8 +139,7 @@ namespace District_3_App.LogIn
                     try
                     {
                         usersRepository.AddUser(newUser);
-                        UserManager.StartOrRenewSession(newUser.username);
-                        //UserManager.currentUsername = newUser.username;
+                        UserManager.StartOrRenewSession(newUser);
                         ClearSignUpForm();
                         var newContent = new MainWindow();
                         newContent.Show();

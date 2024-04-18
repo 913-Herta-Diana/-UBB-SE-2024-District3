@@ -42,7 +42,7 @@ namespace District_3_App
             this.ProfileInfoSettings=casualProfileService.getProfileInfoSettings();
             userRepository = new UsersRepository("Users.xml"); 
             LoadUserProfile();
-            userManager = new UserManager("E:\\facultate\\Sem4\\issFinal\\UBB-SE-2024-District3\\District 3 App\\Users.xml");
+            userManager = new UserManager("Users.xml");
         }
         protected override void OnClosing(CancelEventArgs e)
         {
@@ -68,15 +68,15 @@ namespace District_3_App
 
             // Get the user from the repository
             User user = userRepository.GetUserByName(username);
-                // Display the username
+            // Display the username
             UsernameTextBlock.Text = $"{user.username}";
 
-                // Display the followers count
+            //Display the followers count
             FollowerCountTextBlock.Text = $"{userRepository.getFollowersCount(username)}";
 
-                // Display the following count
+            // Display the following count
             FollowingTextBlock.Text = $"{userRepository.getFollowingCount(username)}";
-            
+
         }
         private void Button_Click_Home(object sender, RoutedEventArgs e)
         {

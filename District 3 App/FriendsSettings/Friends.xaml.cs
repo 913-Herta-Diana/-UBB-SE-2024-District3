@@ -39,7 +39,6 @@ namespace District_3_App.FriendsSettings
             // Load the XML document
             string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
             string relativePath = baseDirectory.Substring(0, baseDirectory.IndexOf("bin\\Debug"));
-
             string currfilePath = System.IO.Path.Combine(relativePath, "FriendsSettings");
             filePath = System.IO.Path.Combine(currfilePath, "Contacts.xml");
             Console.WriteLine(filePath);

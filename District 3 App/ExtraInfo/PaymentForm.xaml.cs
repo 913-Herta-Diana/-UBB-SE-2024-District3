@@ -37,7 +37,7 @@ namespace District_3_App.ExtraInfo
             InitializeComponent();
             try
             {
-                string xmlFilePath = "E:\\facultate\\Sem4\\issFinal\\UBB-SE-2024-District3\\District 3 App\\Users.xml";
+                string xmlFilePath = "Users.xml";
                 xmlDoc = XDocument.Load(xmlFilePath);
                 userManager = new UserManager(xmlFilePath);
             }
@@ -65,7 +65,7 @@ namespace District_3_App.ExtraInfo
             // Authenticate user
             if (userManager.AuthenticateUser(username, password))
             {
-                bool isLoggedIn = userManager.IsUserLoggedIn(username);
+                bool isLoggedIn = userManager.IsUserLoggedIn();
 
                 if (isLoggedIn)
                 {

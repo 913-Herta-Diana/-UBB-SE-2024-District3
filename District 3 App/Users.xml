@@ -1,6 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UserAccounts>
-  <User id="8ea5d307-e9a3-4d2f-888c-4ba4a981c658" Username="username_4" Email="user4@gmail.com" Password="User-4" ConfirmationPassword="User-4">
+  <User id="7bea659f-7398-48c6-a843-99d93aaf31ca" Username="test_0" Email="test0@yahoo.com" Password="Test-0" ConfirmationPassword="Test12">
+    <Following>0</Following>
+    <Followers>0</Followers>
+  </User>
+  <User id="0fc49971-bac3-448d-93ae-7fac848ecb61" Username="user_5" Email="user5@yahoo.com" Password="User-6" ConfirmationPassword="User-6">
+    <Following>0</Following>
+    <Followers>0</Followers>
+  </User>
+  <User id="730d65cf-0c67-4c12-a825-196c516a65cd" Username="dariusica_9" Email="darius@gmail.com" Password="DariusLove" ConfirmationPassword="DariusLove">
+    <Following>0</Following>
+    <Followers>0</Followers>
+  </User>
+  <User id="6e37648a-2a82-4d30-be07-d7f2a591cc0c" Username="user_11" Email="user11@gmail.com" Password="User_11" ConfirmationPassword="User_11">
+    <Following>0</Following>
+    <Followers>0</Followers>
+  </User>
+  <User id="6a6c7dd5-d0dd-420a-afbe-e61e94e63cd4" Username="test_6" Email="test6@yahoo.com" Password="Test6" ConfirmationPassword="Test6">
+    <Following>0</Following>
+    <Followers>0</Followers>
+  </User>
+  <User id="6a6bf406-3aad-4741-8452-dcad8a545101" Username="user_3" Email="user3@gmail.com" Password="User-5" ConfirmationPassword="User-5">
     <Following>0</Following>
     <Followers>0</Followers>
   </User>

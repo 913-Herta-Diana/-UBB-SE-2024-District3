@@ -23,11 +23,13 @@ namespace District_3_App.LogIn
     public partial class SignInPage : UserControl
     {
         UsersRepository usersRepository;
+        private UserManager UserManager;
         User User { get; set; } 
         public SignInPage()
         {
             InitializeComponent();
-            string filePath = "E:\\facultate\\Sem4\\issFinal\\UBB-SE-2024-District3\\District 3 App\\Users.xml";
+            string filePath = "Users.xml";
+            UserManager = new UserManager(filePath);
             usersRepository = new UsersRepository(filePath);
         }
 
@@ -50,7 +52,7 @@ namespace District_3_App.LogIn
 
         private void TogglePasswordVisibility_Click(object sender, RoutedEventArgs e)
         {
-            if (PasswordVisibilityIcon.Source.ToString().Contains("hidePasswordIcon") && txtVisiblePassword.Visibility == Visibility.Collapsed)
+            if (PasswordVisibilityIcon.Source.ToString().Contains("hidePasswordIcon"))
             {
                 txtPassword.Visibility = Visibility.Collapsed;
                 txtVisiblePassword.Visibility = Visibility.Visible;
@@ -70,6 +72,7 @@ namespace District_3_App.LogIn
         {
             string usernameOrEmail = txtUsernameAndEmail.Text;
             string password = txtPassword.Password;
+            
 
             if (!string.IsNullOrWhiteSpace(usernameOrEmail) && !string.IsNullOrWhiteSpace(password))
             {
@@ -77,7 +80,6 @@ namespace District_3_App.LogIn
 
                 if (user != null && user.password == password)
                 {
-
                     var newContent = new MainWindow();
                     //newContent.Username = usernameOrEmail;
                     newContent.Show();

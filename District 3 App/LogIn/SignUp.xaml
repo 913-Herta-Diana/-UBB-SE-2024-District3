@@ -170,7 +170,7 @@ BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5">
 
                 <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Top" Margin="42,46,0,0" Grid.RowSpan="2">
                     <PasswordBox Tag="Password" x:Name="txtPassword" Width="290" Margin="18,32,10,0" Height="46" FontSize="16" Foreground="#8190A5" PasswordChar="•" Style="{StaticResource passwordbox}"/>
-                    <TextBox x:Name="txtVisiblePassword" Text="{Binding ElementName=txtPassword, Path=Password, Mode=TwoWay}" Visibility="Collapsed" Width="290" Margin="18,22,10,0" Height="46" FontSize="16" Foreground="#8190A5" Style="{StaticResource RoundedTextBoxStyle}"/>
+                    <TextBox x:Name="txtVisiblePassword" IsEnabled="False" Visibility="Collapsed" Width="290" Margin="18,22,10,0" Height="46" FontSize="16" Foreground="#8190A5" Style="{StaticResource RoundedTextBoxStyle}"/>
                     <ToggleButton x:Name="TogglePasswordVisibility" Width="40" Height="40" Margin="0,22,10,0" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Click="TogglePasswordVisibility_Click">
                         <Image x:Name="PasswordVisibilityIcon" Width="30" Height="30" Source="\images\hidePasswordIcon.png" RenderTransformOrigin="1.786,0.428" />
                     </ToggleButton>
@@ -178,7 +178,7 @@ BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5">
 
                 <StackPanel Grid.Row="4" Orientation="Horizontal" VerticalAlignment="Top" Margin="42,46,0,0" Grid.RowSpan="2">
                     <PasswordBox Tag="Confirm password"  x:Name="txtConfirmPassword" Width="290" Margin="18,22,10,0" Height="46" FontSize="16" Foreground="#8190A5" PasswordChar="•" Style="{StaticResource passwordbox}" Password=""/>
-                    <TextBox x:Name="txtVisibleConfirmPassword" Text="{Binding ElementName=txtPassword, Path=Password, Mode=TwoWay}" Visibility="Collapsed" Width="290" Margin="18,22,10,0" Height="46" FontSize="16" Foreground="#8190A5" Style="{StaticResource RoundedTextBoxStyle}"/>
+                    <TextBox x:Name="txtVisibleConfirmPassword" IsEnabled="False" Visibility="Collapsed" Width="290" Margin="18,22,10,0" Height="46" FontSize="16" Foreground="#8190A5" Style="{StaticResource RoundedTextBoxStyle}"/>
                     <ToggleButton x:Name="ToggleConfirmPasswordVisibility" Width="40" Height="40" Margin="0,22,10,0" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Click="ToggleConfirmPasswordVisibility_Click">
                         <Image x:Name="ConfirmPasswordVisibilityIcon" Width="30" Height="30" Source="\images\hidePasswordIcon.png" RenderTransformOrigin="1.786,0.428" />
                     </ToggleButton>

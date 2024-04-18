@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\facultate\Sem4\issFinal\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\
+C:\Users\Darius\Documents\GitHub\UBB-SE-2024-District3\District 3 App\obj\Debug\net8.0-windows\
 District_3_App
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-E:\facultate\Sem4\issFinal\UBB-SE-2024-District3\District 3 App\App.xaml
+C:\Users\Darius\Documents\GitHub\UBB-SE-2024-District3\District 3 App\App.xaml
 301643529819
 
 681320382688
 198155382431
 CloseFriends_GUI\CloseFriendsSection_UserControl.xaml;ExtraInfo\ExtraInfo.xaml;ExtraInfo\PaymentConfirmed.xaml;ExtraInfo\PaymentForm.xaml;ExtraInfo\VerifiedAccount.xaml;FancierProfilePage.xaml;FriendsSettings\Friends.xaml;FriendsWindow\CustomWindow.xaml;HighlightsFE\CreateNewHighlight.xaml;HighlightsFE\HighlightsOnMain.xaml;HighlightsFE\SeeHighlightPosts.xaml;HighlightsFE\SelectHighlight.xaml;HighlightsFE\SelectPostsPage.xaml;LogIn\ForgotPassword.xaml;LogIn\SignInPage.xaml;LogIn\SignUp.xaml;LogIn\Window1.xaml;MainWindow.xaml;ProfileInfo-GUI\EditProfileInfo.xaml;ProfileInfo-GUI\ProfileInfoDisplay.xaml;Settings_Privacy_GUI\MantainGroups.xaml;Settings_Privacy_GUI\SettingsPrivacy_UserControl.xaml;Statistics\LikedPosts.xaml;Statistics\Statistics.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;UserControl4.xaml;UserControl5.xaml;UserControl6.xaml;
 
-False
+True
 
