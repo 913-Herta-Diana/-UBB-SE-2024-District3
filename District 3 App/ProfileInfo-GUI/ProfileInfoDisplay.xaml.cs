@@ -25,18 +25,41 @@ namespace District_3_App.ProfileInfo_GUI
             InitializeComponent();
         }
 
-        private void EditInfoButton_Click(object sender, RoutedEventArgs e)
+        public void UpdateProfileInfo(
+            string email, string phoneNumber, string dateOfBirth, string name,
+            string username, string education, string educationLevel,
+            string educationStartDate, string educationEndDate,
+            string educationLocation, string hobbies, string music, string places,
+            string work, string position, string workStartDate,
+            string workEndDate, string workLocation, string description)
         {
-            var newContent = new EditProfileInfo();
-
-            ProfileInfoGrid.Children.Clear();
-            Grid.SetColumn(newContent, 1);
-            ProfileInfoGrid.Children.Add(newContent);
+            // Update TextBlocks with edited profile info
+            TextBlockEmail.Text = email;
+            TextBlockPhoneNumber.Text = phoneNumber;
+            TextBlockDateOfBirth.Text = dateOfBirth;
+            TextBlockName.Text = name;
+            TextBlockUsername.Text = username;
+            TextBlockEducation.Text = education;
+            TextBlockEducationLevel.Text = educationLevel;
+            TextBlockEducationStartDate.Text = educationStartDate;
+            TextBlockEducationEndDate.Text = educationEndDate;
+            TextBlockEducationLocation.Text = educationLocation;
+            TextBlockHobbies.Text = hobbies;
+            TextBlockMusic.Text = music;
+            TextBlockPlaces.Text = places;
+            TextBlockWork.Text = work;
+            TextBlockWorkPosition.Text = position;
+            TextBlockWorkStartDate.Text = workStartDate;
+            TextBlockWorkEndDate.Text = workEndDate;
+            TextBlockWorkLocation.Text = workLocation;
+            TextBlockDescription.Text = description;
         }
 
-        private void TextBox_LostFocus_ChangeDescription(object sender, RoutedEventArgs e)
+        private void EditInfoButton_Click(object sender, RoutedEventArgs e)
         {
-            var editedDescription = ((TextBox)sender).Text;
+            var newContent = new EditProfileInfo(this);
+            ProfileInfoStackPanel.Children.Clear();
+            ProfileInfoStackPanel.Children.Add(newContent);
         }
 
         private void Save_Button(object sender, RoutedEventArgs e)

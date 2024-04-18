@@ -14,15 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("District 3 App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24630ebe68c27352387c847cc6e0346d9224cbf8")]
-=======
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24630ebe68c27352387c847cc6e0346d9224cbf8")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eda34aff27e46e2046461350adcd0b5c1a558763")]
->>>>>>> friendsSettings
->>>>>>> f5660a4a682c0e12e336756f3963b49c765e441c
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef0d4f234b91e50937f11741b804978add5c32ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("District 3 App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("District 3 App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

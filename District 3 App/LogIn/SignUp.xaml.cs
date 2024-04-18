@@ -115,11 +115,11 @@ namespace District_3_App.LogIn
             //    isValid = false;
             //}
 
-            if (txtPassword.Password.Equals(txtConfirmPassword.Password) == false)
-            {
-                MessageBox.Show("Please choose the same password!.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                isValid = false;
-            }
+            //if (txtPassword.Password.Equals(txtConfirmPassword.Password) == false)
+            //{
+            //    MessageBox.Show("Please choose the same password!.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    isValid = false;
+            //}
 
             if (isValid)
             {

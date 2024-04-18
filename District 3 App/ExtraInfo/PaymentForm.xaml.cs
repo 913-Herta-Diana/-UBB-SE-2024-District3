@@ -59,8 +59,8 @@ namespace District_3_App.ExtraInfo
                 Account = new Account(new User(id,username, password,email,confirmationPassword), "", "", "", "");
                 DataContext = this;
             }*/
-            string username = "test_1";
-            string password = "Test-1";
+            string username = "test_0";
+            string password = "Test-0";
 
             // Authenticate user
             if (userManager.AuthenticateUser(username, password))
@@ -155,7 +155,7 @@ namespace District_3_App.ExtraInfo
                 isValid = false;
             }
 
-            if (isValid)
+            if (isValid && CardNumberTextBox.Text!="")
             {
                 Account.CardNumber = CardNumberTextBox.Text;
                 Account.ExpirationDate = ExpirationDateTextBox.Text;

@@ -14,7 +14,6 @@ namespace District_3_App.ExtraInfo
         private string expirationDate;
         private string cvv;
 
-        //public UserExtraInfo UserExtraInfo { get; private set; }
         public User User { get; private set; }
         public string CardNumber
         {

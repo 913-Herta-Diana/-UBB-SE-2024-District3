@@ -21,7 +21,7 @@ namespace District_3_App.LogIn
 {
     public partial class ForgotPassword : UserControl
     {
-        private string filePath = "C:\\Users\\groza\\UBB-SE-2024-District3\\District 3 App\\Users.xml";
+        private string filePath = "E:\\facultate\\Sem4\\issFinal\\UBB-SE-2024-District3\\District 3 App\\Users.xml";
         private UsersRepository usersRepository;
 
         public ForgotPassword()

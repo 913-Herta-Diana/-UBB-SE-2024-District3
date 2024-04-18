@@ -5,6 +5,8 @@ using District_3_App.ProfileSocialNetworkInfoStuff.entities;
 using District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Repository;
 using District_3_App.Service;
 using Log_In;
+using System.ComponentModel;
+using System.Diagnostics;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -27,38 +29,54 @@ namespace District_3_App
         private CasualProfileService casualProfileService = new CasualProfileService();
         private UsersRepository userRepository;
         private UserManager userManager;
+        Stopwatch stopwatch = new Stopwatch();
+        private int timeSpent;
+        public string Username { get; set; }
         public MainWindow()
         {
+            this.timeSpent = 0;
+
+            stopwatch.Start();
             InitializeComponent();
             generateFrame();
             this.ProfileInfoSettings=casualProfileService.getProfileInfoSettings();
             userRepository = new UsersRepository("Users.xml"); 
             LoadUserProfile();
-            userManager = new UserManager("C:\\Users\\groza\\UBB-SE-2024-District3\\District 3 App\\Users.xml");
+            userManager = new UserManager("E:\\facultate\\Sem4\\issFinal\\UBB-SE-2024-District3\\District 3 App\\Users.xml");
+        }
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            base.OnClosing(e);
+
+            stopwatch.Stop();
+
+            TimeSpan elapsedTime = stopwatch.Elapsed;
+            string formattedTime = string.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+
+                elapsedTime.Hours, elapsedTime.Minutes, elapsedTime.Seconds, elapsedTime.Milliseconds / 10);
+
+            timeSpent += (int)elapsedTime.TotalSeconds;
+            //SaveTimeSpentToXML(filePath);
+            MessageBox.Show($"Elapsed Time: {formattedTime}");
+
+
         }
         private void LoadUserProfile()
         {
 
-            string username = "test_0";
+            string username = "test_0";//Username;
 
             // Get the user from the repository
             User user = userRepository.GetUserByName(username);
-            if (user != null)
-            {
                 // Display the username
-                UsernameTextBlock.Text = $"{user.username}";
+            UsernameTextBlock.Text = $"{user.username}";
 
                 // Display the followers count
-                FollowerCountTextBlock.Text = $"{userRepository.getFollowersCount(username)}";
+            FollowerCountTextBlock.Text = $"{userRepository.getFollowersCount(username)}";
 
                 // Display the following count
-                FollowingTextBlock.Text = $"{userRepository.getFollowingCount(username)}";
-            }
-            else
-            {
-                // User not found
-                MessageBox.Show("User not found.");
-            }
+            FollowingTextBlock.Text = $"{userRepository.getFollowingCount(username)}";
+            
         }
         private void Button_Click_Home(object sender, RoutedEventArgs e)
         {

@@ -7,4 +7,11 @@
     <phoneNumber>0743111222</phoneNumber>
     <birthday>1995-05-05T00:00:00</birthday>
   </friend>
+  <friend>
+    <Id>fc0e19f2-114f-47f1-a25a-1245035bc7b3</Id>
+    <username>@patri.stoica</username>
+    <email>email1@example.com</email>
+    <phoneNumber>0752111222</phoneNumber>
+    <birthday>2000-01-01T00:00:00</birthday>
+  </friend>
 </friends>

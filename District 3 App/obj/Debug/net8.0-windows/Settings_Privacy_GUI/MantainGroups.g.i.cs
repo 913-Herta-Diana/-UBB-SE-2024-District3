@@ -125,7 +125,7 @@ namespace District_3_App.Settings_Privacy_GUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/District 3 App;V1.0.0.0;component/settings_privacy_gui/mantaingroups.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/District 3 App;component/settings_privacy_gui/mantaingroups.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Settings_Privacy_GUI\MantainGroups.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

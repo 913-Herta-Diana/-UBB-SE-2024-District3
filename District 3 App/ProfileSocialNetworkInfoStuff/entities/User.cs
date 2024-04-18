@@ -40,15 +40,15 @@ namespace District_3_App.ProfileSocialNetworkInfoStuff.entities
             this.followingCount = followingCount;
         }
 
-        public User(Guid id, string username, string password, string email, string confirmationPassword, TimeSpan Usersession)
-        {
-            this.id = id;
-            this.username = username;
-            this.password = password;
-            this.email = email;
-            this.confirmationPassword = confirmationPassword;
-            this.Usersession = Usersession;
-        }
+        //public User(Guid id, string username, string password, string email, string confirmationPassword, TimeSpan Usersession)
+        //{
+        //    this.id = id;
+        //    this.username = username;
+        //    this.password = password;
+        //    this.email = email;
+        //    this.confirmationPassword = confirmationPassword;
+        //    this.Usersession = Usersession;
+        //}
 
         public string registrationDateToString()
         {

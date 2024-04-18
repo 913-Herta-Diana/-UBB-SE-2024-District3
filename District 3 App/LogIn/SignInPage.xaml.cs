@@ -77,7 +77,9 @@ namespace District_3_App.LogIn
 
                 if (user != null && user.password == password)
                 {
+
                     var newContent = new MainWindow();
+                    //newContent.Username = usernameOrEmail;
                     newContent.Show();
                     Window.GetWindow(this).Close();
                 }

@@ -10,12 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="FriendsWindow\imageSearch.png" />
     <None Remove="images\app_logo.png" />
     <None Remove="images\avatar.png" />
     <None Remove="images\bee1.jpg" />
     <None Remove="images\bee2.jpg" />
     <None Remove="images\bee3.jpg" />
     <None Remove="images\bell.png" />
+    <None Remove="images\button.png" />
+    <None Remove="images\buttonEye.png" />
     <None Remove="images\closeFriends.png" />
     <None Remove="images\explore.png" />
     <None Remove="images\fancierProfile.png" />
@@ -48,11 +51,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="FriendsWindow\imageSearch.png" />
     <Resource Include="images\app_logo.png" />
     <Resource Include="images\avatar.png" />
     <Resource Include="images\bee2.jpg" />
     <Resource Include="images\bee3.jpg" />
     <Resource Include="images\bell.png" />
+    <Resource Include="images\button.png" />
+    <Resource Include="images\buttonEye.png" />
     <Resource Include="images\closeFriends.png" />
     <Resource Include="images\explore.png" />
     <Resource Include="images\fancierProfile.png" />

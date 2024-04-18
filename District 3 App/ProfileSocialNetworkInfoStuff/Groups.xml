@@ -51,4 +51,9 @@
       <user userId="2d793e4d-0dd3-43f4-b6d3-c3a415212b45" username="username4" password="password4" email="username4@stud.ubbcluj.ro" confirmationPassword="password4" />
     </members>
   </group>
+  <group groupId="a74f5009-94ce-4216-b294-5ea1b9c7e475" groupName="newOne">
+    <members>
+      <user userId="e773f1d1-b302-45f2-965c-1741bcbd5458" username="username1" password="password1" email="user1@yahoo.ro" confirmationPassword="password1" />
+    </members>
+  </group>
 </groups>

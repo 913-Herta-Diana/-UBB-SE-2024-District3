@@ -78,6 +78,23 @@ namespace District_3_App.Statistics
                 }
             }
         }
+        public void SaveStreaksToXML()
+        {
+            XDocument xDocument = XDocument.Load(filePath);
+            XElement root = xDocument.Element("Friends");
+
+            root.Elements("Friend").Remove();
+
+            foreach (var kvp in friends)
+            {
+                XElement friendElem = new XElement("Friend",
+                    new XElement("Username", kvp.Key.username),
+                    new XElement("Streak", kvp.Value));
+                root.Add(friendElem);
+            }
+
+            xDocument.Save(filePath);
+        }
 
 
 
