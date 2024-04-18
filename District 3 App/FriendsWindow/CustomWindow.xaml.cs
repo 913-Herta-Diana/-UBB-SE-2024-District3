@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Xml.Linq;
 
 namespace District_3_App.FriendsWindow
 {
@@ -23,12 +24,55 @@ namespace District_3_App.FriendsWindow
         private static Dictionary<string, UserInfo> getFriends()
         {
             var contacts = new Dictionary<string, UserInfo>();
+            string filePath;
 
             // Create User objects with usernames and add them to the dictionary
-            contacts["0752111222"] = new UserInfo("@patri.stoica", "0752111222");
-            contacts["0743111222"] = new UserInfo("@delia.gherasim", "0743111222");
-            contacts["0755111222"] = new UserInfo("@anita.gorog", "0755111222");
+            /*contacts["0752111222"] = new User("@patri.stoica", "0752111222");
+            contacts["0743111222"] = new User("@delia.gherasim", "0743111222");*/
 
+            // Load the XML document
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string relativePath = baseDirectory.Substring(0, baseDirectory.IndexOf("bin\\Debug"));
+
+            string currfilePath = System.IO.Path.Combine(relativePath, "FriendsSettings");
+            filePath = System.IO.Path.Combine(currfilePath, "Friends.xml");
+            Console.WriteLine(filePath);
+            /*if (!File.Exists(filePath))
+            {
+                XDocument xDocument1 = new XDocument(new XElement("FancierProfiles"));
+                xDocument1.Save(filePath);
+            }*/
+            //MessageBox.Show("Reading profile info from file: " + filePath);
+
+            XDocument xDocument = XDocument.Load(filePath);
+
+            XElement root = xDocument.Element("friends");
+            if (root != null && root.HasElements)
+            {
+                foreach (var userElem in root.Elements("friend"))
+                {
+                    Guid userId;
+                    if (!Guid.TryParse((string)userElem.Element("Id"), out userId))
+                    {
+                        userId = Guid.NewGuid();
+                    }
+                    UserInfo user = new UserInfo();
+                    try
+                    {
+                        user.Id = userId;
+                        user.username = (string)userElem.Element("username");
+                        user.email = (string)userElem.Element("email");
+                        user.phoneNumber = (string)userElem.Element("phoneNumber");
+                        user.birthday = (DateTime)userElem.Element("birthday");
+
+                        contacts[user.phoneNumber] = user;
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Error parsing profile: {ex.Message}");
+                    }
+                }
+            }
             return contacts;
         }
 

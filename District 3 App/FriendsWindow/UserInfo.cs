@@ -8,7 +8,7 @@ namespace District_3_App.FriendsWindow
 {
     internal class UserInfo
     {
-        Guid Id { get; set; }
+        public Guid Id { get; set; }
         public string username { get; set; }
         public string? email { get; set; }
         public string phoneNumber { get; set; }
@@ -19,5 +19,7 @@ namespace District_3_App.FriendsWindow
             username = newUsername;
             phoneNumber = NewPhoneNumber;
         }
+
+        public UserInfo() { }
     }
 }
