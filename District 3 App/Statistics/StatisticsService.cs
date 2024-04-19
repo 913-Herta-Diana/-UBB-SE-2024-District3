@@ -30,7 +30,6 @@ namespace District_3_App.Statistics
         {
             this.mainWindow = Application.Current.MainWindow;
 
-
             this.filePath = generateDefaultFilePath();
             Console.WriteLine(filePath);
             if (!File.Exists(filePath))

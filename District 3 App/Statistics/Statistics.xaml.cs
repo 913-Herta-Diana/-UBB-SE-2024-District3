@@ -42,7 +42,7 @@ namespace District_3_App.Statistics
 
             /*MessageBox.Show(srv.ConvertSecondsToHMS());*/
             this.TodaysTime.Text = srv.ConvertSecondsToHMS(srv.getToday());
-            this.Week = srv.ConvertSecondsToHMS(srv.getWeek());
+            this.WeeksTime.Text = srv.ConvertSecondsToHMS(srv.getWeek());
             this.MonthsTime.Text = srv.ConvertSecondsToHMS(srv.getMonth());
 
         }
