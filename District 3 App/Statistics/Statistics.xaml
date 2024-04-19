@@ -71,14 +71,14 @@
                 <Ellipse Width="100" Height="100" Fill="Green" Margin="0,0,10,0"/>
                 <StackPanel>
                     <TextBlock Text="This Week" FontWeight="Bold" FontSize="23"/>
-                    <TextBlock Text="2h20min"  FontSize="17"/>
+                    <TextBlock x:Name="WeeksTime" Text=""  FontSize="17"/>
                 </StackPanel>
             </StackPanel>
             <!-- Third circle with bold text and normal text -->
             <StackPanel Orientation="Horizontal" Margin="0,20,0,0" Width="300">
                 <StackPanel>
                     <TextBlock Text="This Month" FontWeight="Bold" FontSize="23"/>
-                    <TextBlock Text="2h20min"  FontSize="17"/>
+                    <TextBlock x:Name="MonthsTime" Text=""  FontSize="17"/>
                 </StackPanel>
                 <Ellipse Width="100" Height="100" Fill="Blue" Margin="0,0,20,0"/>
 

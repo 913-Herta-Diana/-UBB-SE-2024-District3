@@ -35,7 +35,7 @@ namespace District_3_App
         private UserManager userManager;
         private Stopwatch timer=new Stopwatch();
         protected int time;
-
+        DateTime currentDate;
         public MainWindow()
         {
             timer.Start();
@@ -59,9 +59,10 @@ namespace District_3_App
 
               time = (int)elapsedTime.TotalSeconds;
 
+            currentDate = DateTime.Now;
+
             SaveTimeToXml(time);
 
-            MessageBox.Show($"Elapsed Time: {formattedTime}");
 
 
         }
@@ -81,10 +82,23 @@ namespace District_3_App
                     // Get the root element
                     XmlElement root = xmlDoc.DocumentElement;
 
+                    // Create the entry element
+                    XmlElement entryElement = xmlDoc.CreateElement("Entry");
+
                     // Create the time element
                     XmlElement timeElement = xmlDoc.CreateElement("Time");
                     timeElement.InnerText = time.ToString();
-                    root.AppendChild(timeElement);
+
+                    // Create the date element
+                    XmlElement dateElement = xmlDoc.CreateElement("Date");
+                    dateElement.InnerText = DateTime.Now.ToString("yyyy-MM-dd");
+
+                    // Append time and date elements to the entry element
+                    entryElement.AppendChild(timeElement);
+                    entryElement.AppendChild(dateElement);
+
+                    // Append the entry element to the root element
+                    root.AppendChild(entryElement);
 
                     // Save the XML document back to the file
                     xmlDoc.Save(filePath);
@@ -98,10 +112,23 @@ namespace District_3_App
                     XmlElement root = xmlDoc.CreateElement("TimeData");
                     xmlDoc.AppendChild(root);
 
+                    // Create the entry element
+                    XmlElement entryElement = xmlDoc.CreateElement("Entry");
+
                     // Create the time element
                     XmlElement timeElement = xmlDoc.CreateElement("Time");
                     timeElement.InnerText = time.ToString();
-                    root.AppendChild(timeElement);
+
+                    // Create the date element
+                    XmlElement dateElement = xmlDoc.CreateElement("Date");
+                    dateElement.InnerText = DateTime.Now.ToString("yyyy-MM-dd");
+
+                    // Append time and date elements to the entry element
+                    entryElement.AppendChild(timeElement);
+                    entryElement.AppendChild(dateElement);
+
+                    // Append the entry element to the root element
+                    root.AppendChild(entryElement);
 
                     // Save the XML document to a file
                     xmlDoc.Save(filePath);
@@ -113,8 +140,6 @@ namespace District_3_App
                 MessageBox.Show($"Error saving time data to XML file: {ex.Message}");
             }
         }
-
-
         /*private void PassTimeToOtherWindow()
         {
             Statistics.Statistics statisticsWindow = new Statistics.Statistics();
