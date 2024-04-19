@@ -5,6 +5,9 @@ using District_3_App.ProfileSocialNetworkInfoStuff.entities;
 using District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Repository;
 using District_3_App.Service;
 using Log_In;
+using System.ComponentModel;
+using System;
+using System.Diagnostics;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -15,6 +18,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using District_3_App.Statistics;
+using System.Xml;
+using System.IO;
 
 namespace District_3_App
 {
@@ -27,8 +33,12 @@ namespace District_3_App
         private CasualProfileService casualProfileService = new CasualProfileService();
         private UsersRepository userRepository;
         private UserManager userManager;
+        private Stopwatch timer=new Stopwatch();
+        protected int time;
+
         public MainWindow()
         {
+            timer.Start();
             InitializeComponent();
             generateFrame();
             this.ProfileInfoSettings=casualProfileService.getProfileInfoSettings();
@@ -36,6 +46,85 @@ namespace District_3_App
             LoadUserProfile();
             userManager = new UserManager("C:\\Users\\herta\\Desktop\\Sem4\\ISS\\App\\District 3 App\\Users.xml");
         }
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            base.OnClosing(e);
+
+            timer.Stop();
+
+            TimeSpan elapsedTime = timer.Elapsed;
+            string formattedTime = string.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+
+                elapsedTime.Hours, elapsedTime.Minutes, elapsedTime.Seconds, elapsedTime.Milliseconds / 10);
+
+              time = (int)elapsedTime.TotalSeconds;
+
+            SaveTimeToXml(time);
+
+            MessageBox.Show($"Elapsed Time: {formattedTime}");
+
+
+        }
+        private void SaveTimeToXml(int time)
+        {
+            string filePath = "TimeData.xml";
+
+            try
+            {
+                // Check if the XML file exists
+                if (File.Exists(filePath))
+                {
+                    // Load the existing XML document
+                    XmlDocument xmlDoc = new XmlDocument();
+                    xmlDoc.Load(filePath);
+
+                    // Get the root element
+                    XmlElement root = xmlDoc.DocumentElement;
+
+                    // Create the time element
+                    XmlElement timeElement = xmlDoc.CreateElement("Time");
+                    timeElement.InnerText = time.ToString();
+                    root.AppendChild(timeElement);
+
+                    // Save the XML document back to the file
+                    xmlDoc.Save(filePath);
+                }
+                else
+                {
+                    // If the file doesn't exist, create a new XML document and save the time value
+                    XmlDocument xmlDoc = new XmlDocument();
+
+                    // Create the root element
+                    XmlElement root = xmlDoc.CreateElement("TimeData");
+                    xmlDoc.AppendChild(root);
+
+                    // Create the time element
+                    XmlElement timeElement = xmlDoc.CreateElement("Time");
+                    timeElement.InnerText = time.ToString();
+                    root.AppendChild(timeElement);
+
+                    // Save the XML document to a file
+                    xmlDoc.Save(filePath);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions
+                MessageBox.Show($"Error saving time data to XML file: {ex.Message}");
+            }
+        }
+
+
+        /*private void PassTimeToOtherWindow()
+        {
+            Statistics.Statistics statisticsWindow = new Statistics.Statistics();
+
+            // Pass the time attribute to the other window
+            statisticsWindow.StoreTime(time);
+
+            // You can choose when to show the other window by calling otherWindow.Show() later
+        }*/
+
         private void LoadUserProfile()
         {
 

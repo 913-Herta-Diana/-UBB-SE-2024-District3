@@ -22,6 +22,7 @@ namespace District_3_App.Statistics
     public partial class Statistics : UserControl
     {
         StatisticsService srv = new StatisticsService("Stats.xml");
+       
         public Statistics()
         {
             InitializeComponent();
@@ -39,7 +40,11 @@ namespace District_3_App.Statistics
             this.Streak5.Text = srv.GetUserStreaks()[4].ToString();
 
 
+            /*MessageBox.Show(srv.ConvertSecondsToHMS());*/
+            this.TodaysTime.Text = srv.ConvertSecondsToHMS();
+
         }
+        
 
 
     }

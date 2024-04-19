@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace District_3_App.Statistics
@@ -40,6 +41,7 @@ namespace District_3_App.Statistics
             friends = sortedDictionary;
 
             SaveStreaksToXML();
+            readXML();
 
 
         }
@@ -80,6 +82,7 @@ namespace District_3_App.Statistics
             }
         }
 
+        
         public void SaveStreaksToXML()
         {
             XDocument xDocument = XDocument.Load(filePath);
@@ -99,6 +102,40 @@ namespace District_3_App.Statistics
         }
 
 
+        private void readXML()
+        {
+            // Read from the XML file
+
+            try
+            {
+                // Load the XML document from the file
+                string filePath = "TimeData.xml";
+                XmlDocument xmlDoc = new XmlDocument();
+                xmlDoc.Load(filePath);
+
+                // Get the root element
+                XmlElement root = xmlDoc.DocumentElement;
+
+                // Get all time elements
+                XmlNodeList timeNodes = root.SelectNodes("Time");
+
+                // Iterate over each time element and accumulate their values
+                foreach (XmlNode timeNode in timeNodes)
+                {
+                    // Parse the time value and add it to the timeSpentOnApp variable
+                    int timeValue;
+                    if (int.TryParse(timeNode.InnerText, out timeValue))
+                    {
+                        timeSpentOnApp += timeValue;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions
+                MessageBox.Show($"Error reading time data from XML file: {ex.Message}");
+            }
+        }
 
         public List<string> GetFriendNames()
         {
@@ -130,17 +167,30 @@ namespace District_3_App.Statistics
 
         }
 
-       
-        public TextBlock getTextBlock(TextBlock block)
+      
+        public int getAverageTimeSpent()
         {
-            return block;
-        }
-        public int seeAverageTimeSpent()
-        {
-            return this.timeSpentOnApp;
+            return timeSpentOnApp;
         }
 
-        
+
+        public string ConvertSecondsToHMS()
+        {
+            // Calculate hours
+            int hours = timeSpentOnApp / 3600;
+
+            // Calculate remaining seconds after removing hours
+            int remainingSeconds = timeSpentOnApp % 3600;
+
+            // Calculate minutes
+            int minutes = remainingSeconds / 60;
+
+            // Calculate remaining seconds after removing minutes
+            int seconds = remainingSeconds % 60;
+
+            // Format the result as hours:minutes:seconds
+            return $"{hours:D2}h{minutes:D2}min";
+        }
 
     }
 }
