@@ -2,7 +2,6 @@
 using District_3_App.Repository;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -16,10 +15,7 @@ namespace District_3_App.Statistics
 {
     class StatisticsService
     {
-        private int timeSpentOnAppToday = 0;
-        private int timeSpentOnAppMonthly = 0;
-        private int timeSpentOnAppWeekly = 0;
-
+        private int timeSpentOnApp = 0;
         Dictionary<User, int> friends = new Dictionary<User, int>();
         private Window mainWindow;
         private string filePath;
@@ -105,20 +101,6 @@ namespace District_3_App.Statistics
             xDocument.Save(filePath);
         }
 
-        private static int GetIso8601WeekOfYear(DateTime time)
-        {
-            // Seriously cheat.  If its Monday, Tuesday or Wednesday, then it'll 
-            // be the same week# as whatever Thursday, Friday or Saturday are,
-            // and we always get those right
-            DayOfWeek day = CultureInfo.InvariantCulture.Calendar.GetDayOfWeek(time);
-            if (day >= DayOfWeek.Monday && day <= DayOfWeek.Wednesday)
-            {
-                time = time.AddDays(3);
-            }
-
-            // Return the week of our adjusted day
-            return CultureInfo.InvariantCulture.Calendar.GetWeekOfYear(time, CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
-        }
 
         private void readXML()
         {
@@ -126,8 +108,6 @@ namespace District_3_App.Statistics
 
             try
             {
-                DateTime dateValue;
-
                 // Load the XML document from the file
                 string filePath = "TimeData.xml";
                 XmlDocument xmlDoc = new XmlDocument();
@@ -136,42 +116,19 @@ namespace District_3_App.Statistics
                 // Get the root element
                 XmlElement root = xmlDoc.DocumentElement;
 
-                // Get all entry elements
-                XmlNodeList entryNodes = root.SelectNodes("Entry");
+                // Get all time elements
+                XmlNodeList timeNodes = root.SelectNodes("Time");
 
-                // Iterate over each entry element
-                foreach (XmlNode entryNode in entryNodes)
+                // Iterate over each time element and accumulate their values
+                foreach (XmlNode timeNode in timeNodes)
                 {
-                    // Get the time and date elements for this entry
-                    XmlNode timeNode = entryNode.SelectSingleNode("Time");
-                    XmlNode dateNode = entryNode.SelectSingleNode("Date");
-
-                    if (timeNode != null && dateNode != null)
+                    // Parse the time value and add it to the timeSpentOnApp variable
+                    int timeValue;
+                    if (int.TryParse(timeNode.InnerText, out timeValue))
                     {
-                        // Parse the time value and add it to the timeSpentOnAppToday variable
-                        int timeValue;
-                        if (int.TryParse(timeNode.InnerText, out timeValue) && DateTime.TryParse(dateNode.InnerText, out dateValue))
-                        {
-                            int day = dateValue.Day;
-                            int week = GetIso8601WeekOfYear(dateValue);
-                            int month = dateValue.Month;
-
-
-                            if (day == DateTime.Now.Day)
-                                timeSpentOnAppToday += timeValue;
-                            if (week == GetIso8601WeekOfYear(DateTime.Now)) 
-                                timeSpentOnAppWeekly += timeValue;
-                            if (month==DateTime.Now.Month)
-                                timeSpentOnAppMonthly += timeValue;
-                        }
-
-                        // Get the date value
-                       
-                           
-
-                        }
+                        timeSpentOnApp += timeValue;
                     }
-                
+                }
             }
             catch (Exception ex)
             {
@@ -211,22 +168,13 @@ namespace District_3_App.Statistics
         }
 
       
-        public int getToday()
+        public int getAverageTimeSpent()
         {
-            return timeSpentOnAppToday;
-        }
-
-        public int getWeek()
-        {
-            return timeSpentOnAppWeekly;
-        }
-        public int getMonth()
-        {
-            return timeSpentOnAppMonthly;
+            return timeSpentOnApp;
         }
 
 
-        public string ConvertSecondsToHMS(int timeSpentOnApp)
+        public string ConvertSecondsToHMS()
         {
             // Calculate hours
             int hours = timeSpentOnApp / 3600;

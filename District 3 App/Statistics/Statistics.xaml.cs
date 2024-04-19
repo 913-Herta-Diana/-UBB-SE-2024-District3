@@ -41,9 +41,13 @@ namespace District_3_App.Statistics
 
 
             /*MessageBox.Show(srv.ConvertSecondsToHMS());*/
+<<<<<<< HEAD
             this.TodaysTime.Text = srv.ConvertSecondsToHMS(srv.getToday());
             this.Week = srv.ConvertSecondsToHMS(srv.getWeek());
             this.MonthsTime.Text = srv.ConvertSecondsToHMS(srv.getMonth());
+=======
+            this.TodaysTime.Text = srv.ConvertSecondsToHMS();
+>>>>>>> parent of dad8e44 (C'EST FINI LE STATISTICS)
 
         }
         
