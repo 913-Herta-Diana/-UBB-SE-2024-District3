@@ -141,7 +141,7 @@ namespace District_3_App.LogIn
                     try
                     {
                         usersRepository.AddUser(newUser);
-                        UserManager.StartOrRenewSession(newUser.username);
+                        UserManager.StartOrRenewSession(newUser);
                         //UserManager.currentUsername = newUser.username;
                         ClearSignUpForm();
                         var newContent = new MainWindow();

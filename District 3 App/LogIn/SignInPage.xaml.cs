@@ -23,12 +23,14 @@ namespace District_3_App.LogIn
     public partial class SignInPage : UserControl
     {
         UsersRepository usersRepository;
+        UserManager userManager;
         User User { get; set; } 
         public SignInPage()
         {
             InitializeComponent();
-            string filePath = "C:\\Users\\herta\\Desktop\\Sem4\\ISS\\App\\District 3 App\\Users.xml";
+            string filePath = "C:\\Users\\Darius\\Documents\\GitHub\\UBB-SE-2024-District3\\District 3 App\\Users.xml";
             usersRepository = new UsersRepository(filePath);
+            userManager = new UserManager(filePath);
         }
 
         private void ForgotPasswordLink_Click(object sender, RoutedEventArgs e)
@@ -77,6 +79,7 @@ namespace District_3_App.LogIn
 
                 if (user != null && user.password == password)
                 {
+                    userManager.StartOrRenewSession(user);
                     var newContent = new MainWindow();
                     newContent.Show();
                     Window.GetWindow(this).Close();

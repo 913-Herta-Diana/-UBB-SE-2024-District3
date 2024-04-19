@@ -105,7 +105,7 @@ BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5">
                 <TextBox Grid.Row="2" Tag="Username/Email" x:Name="txtUsernameAndEmail" Width="290" Margin="12,1,10,0" Height="46" VerticalAlignment="Top" FontSize="16" Style="{StaticResource placeHolder}" Foreground="#8190A5"/>
                 <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Top" Margin="42,46,0,0" Grid.RowSpan="2">
                     <PasswordBox Tag="Password" x:Name="txtPassword" Width="290" Margin="18,22,10,0" Height="46" FontSize="16" Foreground="#8190A5" PasswordChar="•" Style="{StaticResource passwordbox}"/>
-                    <TextBox x:Name="txtVisiblePassword" Text="{Binding ElementName=txtPassword, Path=Password, Mode=TwoWay}" Visibility="Collapsed" Width="290" Margin="18,22,10,0" Height="46" FontSize="16" Foreground="#8190A5" Style="{StaticResource RoundedTextBoxStyle}"/>
+                    <TextBox x:Name="txtVisiblePassword" IsEnabled="False" Visibility="Collapsed" Width="290" Margin="18,22,10,0" Height="46" FontSize="16" Foreground="#8190A5" Style="{StaticResource RoundedTextBoxStyle}"/>
                     <ToggleButton x:Name="TogglePasswordVisibility" Width="40" Height="40" Margin="0,22,10,0" HorizontalAlignment="Left" Background="Transparent" BorderBrush="Transparent" Click="TogglePasswordVisibility_Click">
                         <Image x:Name="PasswordVisibilityIcon" Width="30" Height="30" Source="\images\hidePasswordIcon.png" RenderTransformOrigin="1.786,0.428" />
                     </ToggleButton>

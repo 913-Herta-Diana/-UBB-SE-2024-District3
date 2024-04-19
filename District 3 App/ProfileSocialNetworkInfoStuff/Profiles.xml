@@ -13832,7 +13832,11 @@
   </UserProfileSocialNetworkInfo>
   <UserProfileSocialNetworkInfo>
     <user>
+<<<<<<< HEAD
       <id>916f972e-8a34-46b3-a870-b3d84c47b4a8</id>
+=======
+      <id>fea94f7d-25f2-49c3-9dac-e9a3e3ef4381</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
       <username>username1</username>
       <password>password1</password>
       <email>user1@yahoo.ro</email>
@@ -13845,7 +13849,11 @@
     <blockedProfiles>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+          <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username2</username>
           <password>password2</password>
           <email>username2@gmail.ro</email>
@@ -13859,7 +13867,11 @@
       </BlockedProfile>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>b99a5b2d-4516-4d66-a239-ebcacfb3ab17</id>
+=======
+          <id>834f8f87-b14f-4f1a-95e0-2fa2472996d7</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username3</username>
           <password>password3</password>
           <email>user3@yahoo.com</email>
@@ -13873,7 +13885,11 @@
       </BlockedProfile>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>64a6b516-e745-432f-9283-4c606c0a6d7f</id>
+=======
+          <id>abb49a6d-8d0c-4fd5-80ad-b820eee5328f</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username4</username>
           <password>password4</password>
           <email>username4@stud.ubbcluj.ro</email>
@@ -13889,7 +13905,11 @@
     <closeFriendsProfiles>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+          <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username2</username>
           <password>password2</password>
           <email>username2@gmail.ro</email>
@@ -13903,7 +13923,11 @@
       </CloseFriendProfile>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>fd9410e7-b61c-415f-9e39-3841a5fd6e2c</id>
+=======
+          <id>0d279a21-a073-4ef7-9e8a-131280a0c519</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username5</username>
           <password>password5</password>
           <email>username4@gmail.es</email>
@@ -13917,7 +13941,11 @@
       </CloseFriendProfile>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>64a6b516-e745-432f-9283-4c606c0a6d7f</id>
+=======
+          <id>abb49a6d-8d0c-4fd5-80ad-b820eee5328f</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username4</username>
           <password>password4</password>
           <email>username4@stud.ubbcluj.ro</email>
@@ -13932,11 +13960,19 @@
     </closeFriendsProfiles>
     <groups>
       <Group>
+<<<<<<< HEAD
         <Id>1125b37f-0859-4861-983b-4ec308dad422</Id>
         <groupName>group 1</groupName>
         <groupMembers>
           <User>
             <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+        <Id>6a92c915-7354-4b7f-9c8b-bc29b231db4d</Id>
+        <groupName>group 1</groupName>
+        <groupMembers>
+          <User>
+            <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -13947,7 +13983,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>b99a5b2d-4516-4d66-a239-ebcacfb3ab17</id>
+=======
+            <id>834f8f87-b14f-4f1a-95e0-2fa2472996d7</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username3</username>
             <password>password3</password>
             <email>user3@yahoo.com</email>
@@ -13958,7 +13998,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>916f972e-8a34-46b3-a870-b3d84c47b4a8</id>
+=======
+            <id>fea94f7d-25f2-49c3-9dac-e9a3e3ef4381</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -13971,11 +14015,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>93446d9a-a22e-4039-bb00-2f89ba171388</Id>
         <groupName>group 3</groupName>
         <groupMembers>
           <User>
             <id>916f972e-8a34-46b3-a870-b3d84c47b4a8</id>
+=======
+        <Id>c0797f43-5c30-474e-a5bd-33f1d677df83</Id>
+        <groupName>group 3</groupName>
+        <groupMembers>
+          <User>
+            <id>fea94f7d-25f2-49c3-9dac-e9a3e3ef4381</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -13986,7 +14038,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>fd9410e7-b61c-415f-9e39-3841a5fd6e2c</id>
+=======
+            <id>0d279a21-a073-4ef7-9e8a-131280a0c519</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -13997,7 +14053,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>64a6b516-e745-432f-9283-4c606c0a6d7f</id>
+=======
+            <id>abb49a6d-8d0c-4fd5-80ad-b820eee5328f</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username4</username>
             <password>password4</password>
             <email>username4@stud.ubbcluj.ro</email>
@@ -14010,11 +14070,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>c4f3a87b-d636-41e3-b580-1badb6b1f52e</Id>
         <groupName>group 2</groupName>
         <groupMembers>
           <User>
             <id>916f972e-8a34-46b3-a870-b3d84c47b4a8</id>
+=======
+        <Id>5da358f5-10cf-4869-9f73-d485d0310836</Id>
+        <groupName>group 2</groupName>
+        <groupMembers>
+          <User>
+            <id>fea94f7d-25f2-49c3-9dac-e9a3e3ef4381</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14025,7 +14093,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>fd9410e7-b61c-415f-9e39-3841a5fd6e2c</id>
+=======
+            <id>0d279a21-a073-4ef7-9e8a-131280a0c519</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14036,7 +14108,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+            <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -14051,7 +14127,11 @@
     </groups>
     <restrictedStoriesAudience>
       <User>
+<<<<<<< HEAD
         <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+        <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username2</username>
         <password>password2</password>
         <email>username2@gmail.ro</email>
@@ -14062,7 +14142,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>b99a5b2d-4516-4d66-a239-ebcacfb3ab17</id>
+=======
+        <id>834f8f87-b14f-4f1a-95e0-2fa2472996d7</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username3</username>
         <password>password3</password>
         <email>user3@yahoo.com</email>
@@ -14073,7 +14157,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>64a6b516-e745-432f-9283-4c606c0a6d7f</id>
+=======
+        <id>abb49a6d-8d0c-4fd5-80ad-b820eee5328f</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username4</username>
         <password>password4</password>
         <email>username4@stud.ubbcluj.ro</email>
@@ -14086,7 +14174,11 @@
     </restrictedStoriesAudience>
     <restrictedPostsAudience>
       <User>
+<<<<<<< HEAD
         <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+        <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username2</username>
         <password>password2</password>
         <email>username2@gmail.ro</email>
@@ -14097,7 +14189,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>b99a5b2d-4516-4d66-a239-ebcacfb3ab17</id>
+=======
+        <id>834f8f87-b14f-4f1a-95e0-2fa2472996d7</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username3</username>
         <password>password3</password>
         <email>user3@yahoo.com</email>
@@ -14108,7 +14204,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>64a6b516-e745-432f-9283-4c606c0a6d7f</id>
+=======
+        <id>abb49a6d-8d0c-4fd5-80ad-b820eee5328f</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username4</username>
         <password>password4</password>
         <email>username4@stud.ubbcluj.ro</email>
@@ -14123,7 +14223,11 @@
   </UserProfileSocialNetworkInfo>
   <UserProfileSocialNetworkInfo>
     <user>
+<<<<<<< HEAD
       <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+      <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
       <username>username2</username>
       <password>password2</password>
       <email>username2@gmail.ro</email>
@@ -14136,7 +14240,11 @@
     <blockedProfiles>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>fd9410e7-b61c-415f-9e39-3841a5fd6e2c</id>
+=======
+          <id>0d279a21-a073-4ef7-9e8a-131280a0c519</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username5</username>
           <password>password5</password>
           <email>username4@gmail.es</email>
@@ -14150,7 +14258,11 @@
       </BlockedProfile>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>b99a5b2d-4516-4d66-a239-ebcacfb3ab17</id>
+=======
+          <id>834f8f87-b14f-4f1a-95e0-2fa2472996d7</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username3</username>
           <password>password3</password>
           <email>user3@yahoo.com</email>
@@ -14166,7 +14278,11 @@
     <closeFriendsProfiles>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+          <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username2</username>
           <password>password2</password>
           <email>username2@gmail.ro</email>
@@ -14181,11 +14297,19 @@
     </closeFriendsProfiles>
     <groups>
       <Group>
+<<<<<<< HEAD
         <Id>1125b37f-0859-4861-983b-4ec308dad422</Id>
         <groupName>group 1</groupName>
         <groupMembers>
           <User>
             <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+        <Id>6a92c915-7354-4b7f-9c8b-bc29b231db4d</Id>
+        <groupName>group 1</groupName>
+        <groupMembers>
+          <User>
+            <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -14196,7 +14320,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>b99a5b2d-4516-4d66-a239-ebcacfb3ab17</id>
+=======
+            <id>834f8f87-b14f-4f1a-95e0-2fa2472996d7</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username3</username>
             <password>password3</password>
             <email>user3@yahoo.com</email>
@@ -14207,7 +14335,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>916f972e-8a34-46b3-a870-b3d84c47b4a8</id>
+=======
+            <id>fea94f7d-25f2-49c3-9dac-e9a3e3ef4381</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14220,11 +14352,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>c4f3a87b-d636-41e3-b580-1badb6b1f52e</Id>
         <groupName>group 2</groupName>
         <groupMembers>
           <User>
             <id>916f972e-8a34-46b3-a870-b3d84c47b4a8</id>
+=======
+        <Id>5da358f5-10cf-4869-9f73-d485d0310836</Id>
+        <groupName>group 2</groupName>
+        <groupMembers>
+          <User>
+            <id>fea94f7d-25f2-49c3-9dac-e9a3e3ef4381</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14235,7 +14375,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>fd9410e7-b61c-415f-9e39-3841a5fd6e2c</id>
+=======
+            <id>0d279a21-a073-4ef7-9e8a-131280a0c519</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14246,7 +14390,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+            <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -14259,11 +14407,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>93446d9a-a22e-4039-bb00-2f89ba171388</Id>
         <groupName>group 3</groupName>
         <groupMembers>
           <User>
             <id>916f972e-8a34-46b3-a870-b3d84c47b4a8</id>
+=======
+        <Id>c0797f43-5c30-474e-a5bd-33f1d677df83</Id>
+        <groupName>group 3</groupName>
+        <groupMembers>
+          <User>
+            <id>fea94f7d-25f2-49c3-9dac-e9a3e3ef4381</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14274,7 +14430,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>fd9410e7-b61c-415f-9e39-3841a5fd6e2c</id>
+=======
+            <id>0d279a21-a073-4ef7-9e8a-131280a0c519</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14285,7 +14445,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>64a6b516-e745-432f-9283-4c606c0a6d7f</id>
+=======
+            <id>abb49a6d-8d0c-4fd5-80ad-b820eee5328f</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username4</username>
             <password>password4</password>
             <email>username4@stud.ubbcluj.ro</email>
@@ -14304,7 +14468,11 @@
   </UserProfileSocialNetworkInfo>
   <UserProfileSocialNetworkInfo>
     <user>
+<<<<<<< HEAD
       <id>fd9410e7-b61c-415f-9e39-3841a5fd6e2c</id>
+=======
+      <id>0d279a21-a073-4ef7-9e8a-131280a0c519</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
       <username>username5</username>
       <password>password5</password>
       <email>username4@gmail.es</email>
@@ -14318,11 +14486,19 @@
     <closeFriendsProfiles />
     <groups>
       <Group>
+<<<<<<< HEAD
         <Id>93446d9a-a22e-4039-bb00-2f89ba171388</Id>
         <groupName>group 3</groupName>
         <groupMembers>
           <User>
             <id>916f972e-8a34-46b3-a870-b3d84c47b4a8</id>
+=======
+        <Id>c0797f43-5c30-474e-a5bd-33f1d677df83</Id>
+        <groupName>group 3</groupName>
+        <groupMembers>
+          <User>
+            <id>fea94f7d-25f2-49c3-9dac-e9a3e3ef4381</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14333,7 +14509,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>fd9410e7-b61c-415f-9e39-3841a5fd6e2c</id>
+=======
+            <id>0d279a21-a073-4ef7-9e8a-131280a0c519</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14344,7 +14524,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>64a6b516-e745-432f-9283-4c606c0a6d7f</id>
+=======
+            <id>abb49a6d-8d0c-4fd5-80ad-b820eee5328f</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username4</username>
             <password>password4</password>
             <email>username4@stud.ubbcluj.ro</email>
@@ -14357,11 +14541,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>c4f3a87b-d636-41e3-b580-1badb6b1f52e</Id>
         <groupName>group 2</groupName>
         <groupMembers>
           <User>
             <id>916f972e-8a34-46b3-a870-b3d84c47b4a8</id>
+=======
+        <Id>5da358f5-10cf-4869-9f73-d485d0310836</Id>
+        <groupName>group 2</groupName>
+        <groupMembers>
+          <User>
+            <id>fea94f7d-25f2-49c3-9dac-e9a3e3ef4381</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14372,7 +14564,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>fd9410e7-b61c-415f-9e39-3841a5fd6e2c</id>
+=======
+            <id>0d279a21-a073-4ef7-9e8a-131280a0c519</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14383,7 +14579,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>ef7fdd02-9b14-4891-9e64-8dc84b7fd22c</id>
+=======
+            <id>5a0d395d-9905-4efb-98e4-24b72558f10e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -14396,11 +14596,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>bd729e7a-fd64-48bb-8883-f95f02625b1a</Id>
         <groupName>another group</groupName>
         <groupMembers>
           <User>
             <id>fd9410e7-b61c-415f-9e39-3841a5fd6e2c</id>
+=======
+        <Id>f3df5862-7602-4851-9cfb-ff60e7e3ac45</Id>
+        <groupName>another group</groupName>
+        <groupMembers>
+          <User>
+            <id>0d279a21-a073-4ef7-9e8a-131280a0c519</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14411,7 +14619,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>b99a5b2d-4516-4d66-a239-ebcacfb3ab17</id>
+=======
+            <id>834f8f87-b14f-4f1a-95e0-2fa2472996d7</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username3</username>
             <password>password3</password>
             <email>user3@yahoo.com</email>
@@ -14430,7 +14642,11 @@
   </UserProfileSocialNetworkInfo>
   <UserProfileSocialNetworkInfo>
     <user>
+<<<<<<< HEAD
       <id>6547eaa8-4ec1-4d59-a679-325c365d6c08</id>
+=======
+      <id>c6bdf956-ea8c-459b-95eb-6566db8af034</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
       <username>username1</username>
       <password>password1</password>
       <email>user1@yahoo.ro</email>
@@ -14443,7 +14659,11 @@
     <blockedProfiles>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+          <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username2</username>
           <password>password2</password>
           <email>username2@gmail.ro</email>
@@ -14457,7 +14677,11 @@
       </BlockedProfile>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>49c7ad66-7607-4cd5-b47b-7a21bca8e7cb</id>
+=======
+          <id>e9834bb9-c0a8-498f-9cd5-2c7248b4611e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username3</username>
           <password>password3</password>
           <email>user3@yahoo.com</email>
@@ -14471,7 +14695,11 @@
       </BlockedProfile>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>f70900f3-eb76-4879-a9f9-f3e6c9764b59</id>
+=======
+          <id>63c03610-98f4-4844-a6ee-f71998cb1e7d</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username4</username>
           <password>password4</password>
           <email>username4@stud.ubbcluj.ro</email>
@@ -14487,7 +14715,11 @@
     <closeFriendsProfiles>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+          <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username2</username>
           <password>password2</password>
           <email>username2@gmail.ro</email>
@@ -14501,7 +14733,11 @@
       </CloseFriendProfile>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>2ca37498-3d0c-47d2-bd1b-9b6fc205a594</id>
+=======
+          <id>14730035-da47-45ba-bfc0-02b16541a80e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username5</username>
           <password>password5</password>
           <email>username4@gmail.es</email>
@@ -14515,7 +14751,11 @@
       </CloseFriendProfile>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>f70900f3-eb76-4879-a9f9-f3e6c9764b59</id>
+=======
+          <id>63c03610-98f4-4844-a6ee-f71998cb1e7d</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username4</username>
           <password>password4</password>
           <email>username4@stud.ubbcluj.ro</email>
@@ -14530,11 +14770,19 @@
     </closeFriendsProfiles>
     <groups>
       <Group>
+<<<<<<< HEAD
         <Id>9835ddb5-0a80-44c2-be1f-bab9ce1f3e64</Id>
         <groupName>group 1</groupName>
         <groupMembers>
           <User>
             <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+        <Id>6e630d7e-4c85-4b9d-90f2-11a248cd0bce</Id>
+        <groupName>group 1</groupName>
+        <groupMembers>
+          <User>
+            <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -14545,7 +14793,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>49c7ad66-7607-4cd5-b47b-7a21bca8e7cb</id>
+=======
+            <id>e9834bb9-c0a8-498f-9cd5-2c7248b4611e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username3</username>
             <password>password3</password>
             <email>user3@yahoo.com</email>
@@ -14556,7 +14808,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>6547eaa8-4ec1-4d59-a679-325c365d6c08</id>
+=======
+            <id>c6bdf956-ea8c-459b-95eb-6566db8af034</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14569,11 +14825,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>793c5ee0-3967-4751-a35f-6e9bf4e628ec</Id>
         <groupName>group 3</groupName>
         <groupMembers>
           <User>
             <id>6547eaa8-4ec1-4d59-a679-325c365d6c08</id>
+=======
+        <Id>aadbf106-f5ed-41eb-a3d9-54b2b0008eb8</Id>
+        <groupName>group 3</groupName>
+        <groupMembers>
+          <User>
+            <id>c6bdf956-ea8c-459b-95eb-6566db8af034</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14584,7 +14848,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>2ca37498-3d0c-47d2-bd1b-9b6fc205a594</id>
+=======
+            <id>14730035-da47-45ba-bfc0-02b16541a80e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14595,7 +14863,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>f70900f3-eb76-4879-a9f9-f3e6c9764b59</id>
+=======
+            <id>63c03610-98f4-4844-a6ee-f71998cb1e7d</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username4</username>
             <password>password4</password>
             <email>username4@stud.ubbcluj.ro</email>
@@ -14608,11 +14880,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>d328b0bb-a3e8-4758-8574-9a890a030bb5</Id>
         <groupName>group 2</groupName>
         <groupMembers>
           <User>
             <id>6547eaa8-4ec1-4d59-a679-325c365d6c08</id>
+=======
+        <Id>d4b103c6-c7d2-4168-8f60-736def241bf5</Id>
+        <groupName>group 2</groupName>
+        <groupMembers>
+          <User>
+            <id>c6bdf956-ea8c-459b-95eb-6566db8af034</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14623,7 +14903,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>2ca37498-3d0c-47d2-bd1b-9b6fc205a594</id>
+=======
+            <id>14730035-da47-45ba-bfc0-02b16541a80e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14634,7 +14918,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+            <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -14649,7 +14937,11 @@
     </groups>
     <restrictedStoriesAudience>
       <User>
+<<<<<<< HEAD
         <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+        <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username2</username>
         <password>password2</password>
         <email>username2@gmail.ro</email>
@@ -14660,7 +14952,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>49c7ad66-7607-4cd5-b47b-7a21bca8e7cb</id>
+=======
+        <id>e9834bb9-c0a8-498f-9cd5-2c7248b4611e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username3</username>
         <password>password3</password>
         <email>user3@yahoo.com</email>
@@ -14671,7 +14967,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>f70900f3-eb76-4879-a9f9-f3e6c9764b59</id>
+=======
+        <id>63c03610-98f4-4844-a6ee-f71998cb1e7d</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username4</username>
         <password>password4</password>
         <email>username4@stud.ubbcluj.ro</email>
@@ -14684,7 +14984,11 @@
     </restrictedStoriesAudience>
     <restrictedPostsAudience>
       <User>
+<<<<<<< HEAD
         <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+        <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username2</username>
         <password>password2</password>
         <email>username2@gmail.ro</email>
@@ -14695,7 +14999,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>49c7ad66-7607-4cd5-b47b-7a21bca8e7cb</id>
+=======
+        <id>e9834bb9-c0a8-498f-9cd5-2c7248b4611e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username3</username>
         <password>password3</password>
         <email>user3@yahoo.com</email>
@@ -14706,7 +15014,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>f70900f3-eb76-4879-a9f9-f3e6c9764b59</id>
+=======
+        <id>63c03610-98f4-4844-a6ee-f71998cb1e7d</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username4</username>
         <password>password4</password>
         <email>username4@stud.ubbcluj.ro</email>
@@ -14721,7 +15033,11 @@
   </UserProfileSocialNetworkInfo>
   <UserProfileSocialNetworkInfo>
     <user>
+<<<<<<< HEAD
       <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+      <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
       <username>username2</username>
       <password>password2</password>
       <email>username2@gmail.ro</email>
@@ -14734,7 +15050,11 @@
     <blockedProfiles>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>2ca37498-3d0c-47d2-bd1b-9b6fc205a594</id>
+=======
+          <id>14730035-da47-45ba-bfc0-02b16541a80e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username5</username>
           <password>password5</password>
           <email>username4@gmail.es</email>
@@ -14748,7 +15068,11 @@
       </BlockedProfile>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>49c7ad66-7607-4cd5-b47b-7a21bca8e7cb</id>
+=======
+          <id>e9834bb9-c0a8-498f-9cd5-2c7248b4611e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username3</username>
           <password>password3</password>
           <email>user3@yahoo.com</email>
@@ -14764,7 +15088,11 @@
     <closeFriendsProfiles>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+          <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username2</username>
           <password>password2</password>
           <email>username2@gmail.ro</email>
@@ -14779,11 +15107,19 @@
     </closeFriendsProfiles>
     <groups>
       <Group>
+<<<<<<< HEAD
         <Id>9835ddb5-0a80-44c2-be1f-bab9ce1f3e64</Id>
         <groupName>group 1</groupName>
         <groupMembers>
           <User>
             <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+        <Id>6e630d7e-4c85-4b9d-90f2-11a248cd0bce</Id>
+        <groupName>group 1</groupName>
+        <groupMembers>
+          <User>
+            <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -14794,7 +15130,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>49c7ad66-7607-4cd5-b47b-7a21bca8e7cb</id>
+=======
+            <id>e9834bb9-c0a8-498f-9cd5-2c7248b4611e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username3</username>
             <password>password3</password>
             <email>user3@yahoo.com</email>
@@ -14805,7 +15145,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>6547eaa8-4ec1-4d59-a679-325c365d6c08</id>
+=======
+            <id>c6bdf956-ea8c-459b-95eb-6566db8af034</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14818,11 +15162,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>d328b0bb-a3e8-4758-8574-9a890a030bb5</Id>
         <groupName>group 2</groupName>
         <groupMembers>
           <User>
             <id>6547eaa8-4ec1-4d59-a679-325c365d6c08</id>
+=======
+        <Id>d4b103c6-c7d2-4168-8f60-736def241bf5</Id>
+        <groupName>group 2</groupName>
+        <groupMembers>
+          <User>
+            <id>c6bdf956-ea8c-459b-95eb-6566db8af034</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14833,7 +15185,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>2ca37498-3d0c-47d2-bd1b-9b6fc205a594</id>
+=======
+            <id>14730035-da47-45ba-bfc0-02b16541a80e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14844,7 +15200,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+            <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -14857,11 +15217,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>793c5ee0-3967-4751-a35f-6e9bf4e628ec</Id>
         <groupName>group 3</groupName>
         <groupMembers>
           <User>
             <id>6547eaa8-4ec1-4d59-a679-325c365d6c08</id>
+=======
+        <Id>aadbf106-f5ed-41eb-a3d9-54b2b0008eb8</Id>
+        <groupName>group 3</groupName>
+        <groupMembers>
+          <User>
+            <id>c6bdf956-ea8c-459b-95eb-6566db8af034</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14872,7 +15240,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>2ca37498-3d0c-47d2-bd1b-9b6fc205a594</id>
+=======
+            <id>14730035-da47-45ba-bfc0-02b16541a80e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14883,7 +15255,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>f70900f3-eb76-4879-a9f9-f3e6c9764b59</id>
+=======
+            <id>63c03610-98f4-4844-a6ee-f71998cb1e7d</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username4</username>
             <password>password4</password>
             <email>username4@stud.ubbcluj.ro</email>
@@ -14902,7 +15278,11 @@
   </UserProfileSocialNetworkInfo>
   <UserProfileSocialNetworkInfo>
     <user>
+<<<<<<< HEAD
       <id>2ca37498-3d0c-47d2-bd1b-9b6fc205a594</id>
+=======
+      <id>14730035-da47-45ba-bfc0-02b16541a80e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
       <username>username5</username>
       <password>password5</password>
       <email>username4@gmail.es</email>
@@ -14916,11 +15296,19 @@
     <closeFriendsProfiles />
     <groups>
       <Group>
+<<<<<<< HEAD
         <Id>793c5ee0-3967-4751-a35f-6e9bf4e628ec</Id>
         <groupName>group 3</groupName>
         <groupMembers>
           <User>
             <id>6547eaa8-4ec1-4d59-a679-325c365d6c08</id>
+=======
+        <Id>aadbf106-f5ed-41eb-a3d9-54b2b0008eb8</Id>
+        <groupName>group 3</groupName>
+        <groupMembers>
+          <User>
+            <id>c6bdf956-ea8c-459b-95eb-6566db8af034</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14931,7 +15319,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>2ca37498-3d0c-47d2-bd1b-9b6fc205a594</id>
+=======
+            <id>14730035-da47-45ba-bfc0-02b16541a80e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14942,7 +15334,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>f70900f3-eb76-4879-a9f9-f3e6c9764b59</id>
+=======
+            <id>63c03610-98f4-4844-a6ee-f71998cb1e7d</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username4</username>
             <password>password4</password>
             <email>username4@stud.ubbcluj.ro</email>
@@ -14955,11 +15351,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>d328b0bb-a3e8-4758-8574-9a890a030bb5</Id>
         <groupName>group 2</groupName>
         <groupMembers>
           <User>
             <id>6547eaa8-4ec1-4d59-a679-325c365d6c08</id>
+=======
+        <Id>d4b103c6-c7d2-4168-8f60-736def241bf5</Id>
+        <groupName>group 2</groupName>
+        <groupMembers>
+          <User>
+            <id>c6bdf956-ea8c-459b-95eb-6566db8af034</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -14970,7 +15374,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>2ca37498-3d0c-47d2-bd1b-9b6fc205a594</id>
+=======
+            <id>14730035-da47-45ba-bfc0-02b16541a80e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -14981,7 +15389,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>35b8af76-e442-439f-801b-789f2d6f59cc</id>
+=======
+            <id>248b62cf-c7c9-4bf3-a2e2-6f0c502e6d53</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -14994,11 +15406,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>65302218-26ae-40d3-999e-4a59fe1c1f70</Id>
         <groupName>another group</groupName>
         <groupMembers>
           <User>
             <id>2ca37498-3d0c-47d2-bd1b-9b6fc205a594</id>
+=======
+        <Id>bc0e5096-d339-41dd-94b0-c21ff100f33e</Id>
+        <groupName>another group</groupName>
+        <groupMembers>
+          <User>
+            <id>14730035-da47-45ba-bfc0-02b16541a80e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -15009,7 +15429,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>49c7ad66-7607-4cd5-b47b-7a21bca8e7cb</id>
+=======
+            <id>e9834bb9-c0a8-498f-9cd5-2c7248b4611e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username3</username>
             <password>password3</password>
             <email>user3@yahoo.com</email>
@@ -15028,7 +15452,11 @@
   </UserProfileSocialNetworkInfo>
   <UserProfileSocialNetworkInfo>
     <user>
+<<<<<<< HEAD
       <id>d060e91d-4a29-481b-8f12-c742cb4eff62</id>
+=======
+      <id>10228446-3926-4db9-83dd-307a37dd262e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
       <username>username1</username>
       <password>password1</password>
       <email>user1@yahoo.ro</email>
@@ -15041,7 +15469,11 @@
     <blockedProfiles>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+          <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username2</username>
           <password>password2</password>
           <email>username2@gmail.ro</email>
@@ -15055,7 +15487,11 @@
       </BlockedProfile>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>f76933c9-e924-410f-a6ca-a4b6566f2975</id>
+=======
+          <id>0c60f62d-c998-4296-8e3e-55f7f85c2b05</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username3</username>
           <password>password3</password>
           <email>user3@yahoo.com</email>
@@ -15069,7 +15505,11 @@
       </BlockedProfile>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>54128680-d4d2-41f1-8ea9-cb2e31124e9a</id>
+=======
+          <id>551dc18f-ab2e-4cf6-b68b-d204dfe7fce8</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username4</username>
           <password>password4</password>
           <email>username4@stud.ubbcluj.ro</email>
@@ -15085,7 +15525,11 @@
     <closeFriendsProfiles>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+          <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username2</username>
           <password>password2</password>
           <email>username2@gmail.ro</email>
@@ -15099,7 +15543,11 @@
       </CloseFriendProfile>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>904be227-b6e2-448c-9050-cf5a08087a61</id>
+=======
+          <id>eb261861-bfa7-4b73-889c-02e732ba9508</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username5</username>
           <password>password5</password>
           <email>username4@gmail.es</email>
@@ -15113,7 +15561,11 @@
       </CloseFriendProfile>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>54128680-d4d2-41f1-8ea9-cb2e31124e9a</id>
+=======
+          <id>551dc18f-ab2e-4cf6-b68b-d204dfe7fce8</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username4</username>
           <password>password4</password>
           <email>username4@stud.ubbcluj.ro</email>
@@ -15128,11 +15580,19 @@
     </closeFriendsProfiles>
     <groups>
       <Group>
+<<<<<<< HEAD
         <Id>620f7424-d6ba-4cc3-9eef-642d7d1a760f</Id>
         <groupName>group 1</groupName>
         <groupMembers>
           <User>
             <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+        <Id>70e8aeab-12d0-41ac-a6a0-deca47e8b3d1</Id>
+        <groupName>group 1</groupName>
+        <groupMembers>
+          <User>
+            <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -15143,7 +15603,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>f76933c9-e924-410f-a6ca-a4b6566f2975</id>
+=======
+            <id>0c60f62d-c998-4296-8e3e-55f7f85c2b05</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username3</username>
             <password>password3</password>
             <email>user3@yahoo.com</email>
@@ -15154,7 +15618,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>d060e91d-4a29-481b-8f12-c742cb4eff62</id>
+=======
+            <id>10228446-3926-4db9-83dd-307a37dd262e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -15167,11 +15635,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>082b151e-c87f-4a45-9f4e-68d76070efaf</Id>
         <groupName>group 3</groupName>
         <groupMembers>
           <User>
             <id>d060e91d-4a29-481b-8f12-c742cb4eff62</id>
+=======
+        <Id>b7d6cfa6-b5fc-4682-a94e-fb48b8546a4c</Id>
+        <groupName>group 3</groupName>
+        <groupMembers>
+          <User>
+            <id>10228446-3926-4db9-83dd-307a37dd262e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -15182,7 +15658,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>904be227-b6e2-448c-9050-cf5a08087a61</id>
+=======
+            <id>eb261861-bfa7-4b73-889c-02e732ba9508</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -15193,7 +15673,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>54128680-d4d2-41f1-8ea9-cb2e31124e9a</id>
+=======
+            <id>551dc18f-ab2e-4cf6-b68b-d204dfe7fce8</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username4</username>
             <password>password4</password>
             <email>username4@stud.ubbcluj.ro</email>
@@ -15206,11 +15690,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>4cccc8ba-df0e-4a4b-83e8-9c07dbbe6cad</Id>
         <groupName>group 2</groupName>
         <groupMembers>
           <User>
             <id>d060e91d-4a29-481b-8f12-c742cb4eff62</id>
+=======
+        <Id>1683f2e3-6123-4697-a67d-000e0f9fbc06</Id>
+        <groupName>group 2</groupName>
+        <groupMembers>
+          <User>
+            <id>10228446-3926-4db9-83dd-307a37dd262e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -15221,7 +15713,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>904be227-b6e2-448c-9050-cf5a08087a61</id>
+=======
+            <id>eb261861-bfa7-4b73-889c-02e732ba9508</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -15232,7 +15728,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+            <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -15247,7 +15747,11 @@
     </groups>
     <restrictedStoriesAudience>
       <User>
+<<<<<<< HEAD
         <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+        <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username2</username>
         <password>password2</password>
         <email>username2@gmail.ro</email>
@@ -15258,7 +15762,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>f76933c9-e924-410f-a6ca-a4b6566f2975</id>
+=======
+        <id>0c60f62d-c998-4296-8e3e-55f7f85c2b05</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username3</username>
         <password>password3</password>
         <email>user3@yahoo.com</email>
@@ -15269,7 +15777,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>54128680-d4d2-41f1-8ea9-cb2e31124e9a</id>
+=======
+        <id>551dc18f-ab2e-4cf6-b68b-d204dfe7fce8</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username4</username>
         <password>password4</password>
         <email>username4@stud.ubbcluj.ro</email>
@@ -15282,7 +15794,11 @@
     </restrictedStoriesAudience>
     <restrictedPostsAudience>
       <User>
+<<<<<<< HEAD
         <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+        <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username2</username>
         <password>password2</password>
         <email>username2@gmail.ro</email>
@@ -15293,7 +15809,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>f76933c9-e924-410f-a6ca-a4b6566f2975</id>
+=======
+        <id>0c60f62d-c998-4296-8e3e-55f7f85c2b05</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username3</username>
         <password>password3</password>
         <email>user3@yahoo.com</email>
@@ -15304,7 +15824,11 @@
         <Usersession>PT0S</Usersession>
       </User>
       <User>
+<<<<<<< HEAD
         <id>54128680-d4d2-41f1-8ea9-cb2e31124e9a</id>
+=======
+        <id>551dc18f-ab2e-4cf6-b68b-d204dfe7fce8</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
         <username>username4</username>
         <password>password4</password>
         <email>username4@stud.ubbcluj.ro</email>
@@ -15319,7 +15843,11 @@
   </UserProfileSocialNetworkInfo>
   <UserProfileSocialNetworkInfo>
     <user>
+<<<<<<< HEAD
       <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+      <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
       <username>username2</username>
       <password>password2</password>
       <email>username2@gmail.ro</email>
@@ -15332,7 +15860,11 @@
     <blockedProfiles>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>904be227-b6e2-448c-9050-cf5a08087a61</id>
+=======
+          <id>eb261861-bfa7-4b73-889c-02e732ba9508</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username5</username>
           <password>password5</password>
           <email>username4@gmail.es</email>
@@ -15346,7 +15878,11 @@
       </BlockedProfile>
       <BlockedProfile>
         <user>
+<<<<<<< HEAD
           <id>f76933c9-e924-410f-a6ca-a4b6566f2975</id>
+=======
+          <id>0c60f62d-c998-4296-8e3e-55f7f85c2b05</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username3</username>
           <password>password3</password>
           <email>user3@yahoo.com</email>
@@ -15362,7 +15898,11 @@
     <closeFriendsProfiles>
       <CloseFriendProfile>
         <user>
+<<<<<<< HEAD
           <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+          <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
           <username>username2</username>
           <password>password2</password>
           <email>username2@gmail.ro</email>
@@ -15377,11 +15917,19 @@
     </closeFriendsProfiles>
     <groups>
       <Group>
+<<<<<<< HEAD
         <Id>620f7424-d6ba-4cc3-9eef-642d7d1a760f</Id>
         <groupName>group 1</groupName>
         <groupMembers>
           <User>
             <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+        <Id>70e8aeab-12d0-41ac-a6a0-deca47e8b3d1</Id>
+        <groupName>group 1</groupName>
+        <groupMembers>
+          <User>
+            <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -15392,7 +15940,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>f76933c9-e924-410f-a6ca-a4b6566f2975</id>
+=======
+            <id>0c60f62d-c998-4296-8e3e-55f7f85c2b05</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username3</username>
             <password>password3</password>
             <email>user3@yahoo.com</email>
@@ -15403,7 +15955,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>d060e91d-4a29-481b-8f12-c742cb4eff62</id>
+=======
+            <id>10228446-3926-4db9-83dd-307a37dd262e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -15416,11 +15972,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>4cccc8ba-df0e-4a4b-83e8-9c07dbbe6cad</Id>
         <groupName>group 2</groupName>
         <groupMembers>
           <User>
             <id>d060e91d-4a29-481b-8f12-c742cb4eff62</id>
+=======
+        <Id>1683f2e3-6123-4697-a67d-000e0f9fbc06</Id>
+        <groupName>group 2</groupName>
+        <groupMembers>
+          <User>
+            <id>10228446-3926-4db9-83dd-307a37dd262e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -15431,7 +15995,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>904be227-b6e2-448c-9050-cf5a08087a61</id>
+=======
+            <id>eb261861-bfa7-4b73-889c-02e732ba9508</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -15442,7 +16010,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+            <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -15455,11 +16027,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>082b151e-c87f-4a45-9f4e-68d76070efaf</Id>
         <groupName>group 3</groupName>
         <groupMembers>
           <User>
             <id>d060e91d-4a29-481b-8f12-c742cb4eff62</id>
+=======
+        <Id>b7d6cfa6-b5fc-4682-a94e-fb48b8546a4c</Id>
+        <groupName>group 3</groupName>
+        <groupMembers>
+          <User>
+            <id>10228446-3926-4db9-83dd-307a37dd262e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -15470,7 +16050,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>904be227-b6e2-448c-9050-cf5a08087a61</id>
+=======
+            <id>eb261861-bfa7-4b73-889c-02e732ba9508</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -15481,7 +16065,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>54128680-d4d2-41f1-8ea9-cb2e31124e9a</id>
+=======
+            <id>551dc18f-ab2e-4cf6-b68b-d204dfe7fce8</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username4</username>
             <password>password4</password>
             <email>username4@stud.ubbcluj.ro</email>
@@ -15500,7 +16088,11 @@
   </UserProfileSocialNetworkInfo>
   <UserProfileSocialNetworkInfo>
     <user>
+<<<<<<< HEAD
       <id>904be227-b6e2-448c-9050-cf5a08087a61</id>
+=======
+      <id>eb261861-bfa7-4b73-889c-02e732ba9508</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
       <username>username5</username>
       <password>password5</password>
       <email>username4@gmail.es</email>
@@ -15514,11 +16106,19 @@
     <closeFriendsProfiles />
     <groups>
       <Group>
+<<<<<<< HEAD
         <Id>082b151e-c87f-4a45-9f4e-68d76070efaf</Id>
         <groupName>group 3</groupName>
         <groupMembers>
           <User>
             <id>d060e91d-4a29-481b-8f12-c742cb4eff62</id>
+=======
+        <Id>b7d6cfa6-b5fc-4682-a94e-fb48b8546a4c</Id>
+        <groupName>group 3</groupName>
+        <groupMembers>
+          <User>
+            <id>10228446-3926-4db9-83dd-307a37dd262e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -15529,7 +16129,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>904be227-b6e2-448c-9050-cf5a08087a61</id>
+=======
+            <id>eb261861-bfa7-4b73-889c-02e732ba9508</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -15540,7 +16144,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>54128680-d4d2-41f1-8ea9-cb2e31124e9a</id>
+=======
+            <id>551dc18f-ab2e-4cf6-b68b-d204dfe7fce8</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username4</username>
             <password>password4</password>
             <email>username4@stud.ubbcluj.ro</email>
@@ -15553,11 +16161,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>4cccc8ba-df0e-4a4b-83e8-9c07dbbe6cad</Id>
         <groupName>group 2</groupName>
         <groupMembers>
           <User>
             <id>d060e91d-4a29-481b-8f12-c742cb4eff62</id>
+=======
+        <Id>1683f2e3-6123-4697-a67d-000e0f9fbc06</Id>
+        <groupName>group 2</groupName>
+        <groupMembers>
+          <User>
+            <id>10228446-3926-4db9-83dd-307a37dd262e</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username1</username>
             <password>password1</password>
             <email>user1@yahoo.ro</email>
@@ -15568,7 +16184,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>904be227-b6e2-448c-9050-cf5a08087a61</id>
+=======
+            <id>eb261861-bfa7-4b73-889c-02e732ba9508</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -15579,7 +16199,11 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>38f151dd-1ee9-427e-892d-f75c0e432332</id>
+=======
+            <id>1b593096-b67e-45f0-873a-6242f5e09b9b</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username2</username>
             <password>password2</password>
             <email>username2@gmail.ro</email>
@@ -15592,11 +16216,19 @@
         </groupMembers>
       </Group>
       <Group>
+<<<<<<< HEAD
         <Id>a64463e8-bf7c-4830-a59b-ada4cb750064</Id>
         <groupName>another group</groupName>
         <groupMembers>
           <User>
             <id>904be227-b6e2-448c-9050-cf5a08087a61</id>
+=======
+        <Id>bcf267b2-64c0-4359-b72b-51376bb55026</Id>
+        <groupName>another group</groupName>
+        <groupMembers>
+          <User>
+            <id>eb261861-bfa7-4b73-889c-02e732ba9508</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username5</username>
             <password>password5</password>
             <email>username4@gmail.es</email>
@@ -15607,6 +16239,7 @@
             <Usersession>PT0S</Usersession>
           </User>
           <User>
+<<<<<<< HEAD
             <id>f76933c9-e924-410f-a6ca-a4b6566f2975</id>
             <username>username3</username>
             <password>password3</password>
@@ -25774,6 +26407,9 @@
           </User>
           <User>
             <id>423b22e6-87b6-469f-838b-dd7b4b9a3e73</id>
+=======
+            <id>0c60f62d-c998-4296-8e3e-55f7f85c2b05</id>
+>>>>>>> 718317f485d2cc40b09a263cb37a9297e64901ac
             <username>username3</username>
             <password>password3</password>
             <email>user3@yahoo.com</email>
