@@ -2,19 +2,24 @@
 using District_3_App.Repository;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Xml;
 using System.Xml.Linq;
 
 namespace District_3_App.Statistics
 {
     class StatisticsService
     {
-        private int timeSpentOnApp = 0;
+        private int timeSpentOnAppToday = 0;
+        private int timeSpentOnAppMonthly = 0;
+        private int timeSpentOnAppWeekly = 0;
+
         Dictionary<User, int> friends = new Dictionary<User, int>();
         private Window mainWindow;
         private string filePath;
@@ -40,6 +45,7 @@ namespace District_3_App.Statistics
             friends = sortedDictionary;
 
             SaveStreaksToXML();
+            readXML();
 
 
         }
@@ -80,6 +86,7 @@ namespace District_3_App.Statistics
             }
         }
 
+        
         public void SaveStreaksToXML()
         {
             XDocument xDocument = XDocument.Load(filePath);
@@ -98,7 +105,80 @@ namespace District_3_App.Statistics
             xDocument.Save(filePath);
         }
 
+        private static int GetIso8601WeekOfYear(DateTime time)
+        {
+            // Seriously cheat.  If its Monday, Tuesday or Wednesday, then it'll 
+            // be the same week# as whatever Thursday, Friday or Saturday are,
+            // and we always get those right
+            DayOfWeek day = CultureInfo.InvariantCulture.Calendar.GetDayOfWeek(time);
+            if (day >= DayOfWeek.Monday && day <= DayOfWeek.Wednesday)
+            {
+                time = time.AddDays(3);
+            }
 
+            // Return the week of our adjusted day
+            return CultureInfo.InvariantCulture.Calendar.GetWeekOfYear(time, CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
+        }
+
+        private void readXML()
+        {
+            // Read from the XML file
+
+            try
+            {
+                DateTime dateValue;
+
+                // Load the XML document from the file
+                string filePath = "TimeData.xml";
+                XmlDocument xmlDoc = new XmlDocument();
+                xmlDoc.Load(filePath);
+
+                // Get the root element
+                XmlElement root = xmlDoc.DocumentElement;
+
+                // Get all entry elements
+                XmlNodeList entryNodes = root.SelectNodes("Entry");
+
+                // Iterate over each entry element
+                foreach (XmlNode entryNode in entryNodes)
+                {
+                    // Get the time and date elements for this entry
+                    XmlNode timeNode = entryNode.SelectSingleNode("Time");
+                    XmlNode dateNode = entryNode.SelectSingleNode("Date");
+
+                    if (timeNode != null && dateNode != null)
+                    {
+                        // Parse the time value and add it to the timeSpentOnAppToday variable
+                        int timeValue;
+                        if (int.TryParse(timeNode.InnerText, out timeValue) && DateTime.TryParse(dateNode.InnerText, out dateValue))
+                        {
+                            int day = dateValue.Day;
+                            int week = GetIso8601WeekOfYear(dateValue);
+                            int month = dateValue.Month;
+
+
+                            if (day == DateTime.Now.Day)
+                                timeSpentOnAppToday += timeValue;
+                            if (week == GetIso8601WeekOfYear(DateTime.Now)) 
+                                timeSpentOnAppWeekly += timeValue;
+                            if (month==DateTime.Now.Month)
+                                timeSpentOnAppMonthly += timeValue;
+                        }
+
+                        // Get the date value
+                       
+                           
+
+                        }
+                    }
+                
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions
+                MessageBox.Show($"Error reading time data from XML file: {ex.Message}");
+            }
+        }
 
         public List<string> GetFriendNames()
         {
@@ -130,17 +210,39 @@ namespace District_3_App.Statistics
 
         }
 
-       
-        public TextBlock getTextBlock(TextBlock block)
+      
+        public int getToday()
         {
-            return block;
-        }
-        public int seeAverageTimeSpent()
-        {
-            return this.timeSpentOnApp;
+            return timeSpentOnAppToday;
         }
 
-        
+        public int getWeek()
+        {
+            return timeSpentOnAppWeekly;
+        }
+        public int getMonth()
+        {
+            return timeSpentOnAppMonthly;
+        }
+
+
+        public string ConvertSecondsToHMS(int timeSpentOnApp)
+        {
+            // Calculate hours
+            int hours = timeSpentOnApp / 3600;
+
+            // Calculate remaining seconds after removing hours
+            int remainingSeconds = timeSpentOnApp % 3600;
+
+            // Calculate minutes
+            int minutes = remainingSeconds / 60;
+
+            // Calculate remaining seconds after removing minutes
+            int seconds = remainingSeconds % 60;
+
+            // Format the result as hours:minutes:seconds
+            return $"{hours:D2}h{minutes:D2}min";
+        }
 
     }
 }
