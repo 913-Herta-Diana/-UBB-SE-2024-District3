@@ -13,7 +13,10 @@ namespace District_3_App.LogIn
     public class UserManager
     {
         private List<User> users = new List<User>();
-        static User? currentUser;
+        private Dictionary<string, DateTime> sessions = new Dictionary<string, DateTime>();
+        private TimeSpan sessionTimeout = TimeSpan.FromMinutes(0.2);
+        //public string currentUsername;
+
         public UserManager(string filePath)
         {
             LoadUsersFromXml(filePath);
@@ -21,33 +24,46 @@ namespace District_3_App.LogIn
 
         public bool AuthenticateUser(string username, string password)
         {
-            User? user = users.Find(u => u.username == username);
+            User user = users.Find(u => u.username == username);
             if (user != null && user.password == password)
             {
-                StartOrRenewSession(user);
+                StartOrRenewSession(username);
                 return true;
             }
             return false;
         }
 
-        public void StartOrRenewSession(User user)
+        //public void PrintSessions()
+        //{
+        //    Console.WriteLine("Sessions Dictionary:");
+        //    foreach (var kvp in sessions)
+        //    {
+        //        Console.WriteLine($"Username: {kvp.Key}, LoggedIn: {kvp.Value}");
+        //    }
+        //}
+
+        public void StartOrRenewSession(string username)
         {
-            UserManager.currentUser = user;
+            DateTime expirationTime = DateTime.Now.Add(sessionTimeout);
+            sessions[username] = expirationTime;
         }
 
-        public bool IsUserLoggedIn()
+        public bool IsUserLoggedIn(string username)
         {
-            return UserManager.currentUser != null; 
+            return sessions.ContainsKey(username) && sessions[username] > DateTime.Now;
         }
 
-        public void LogOutUser()
+        public void LogOutUser(string username)
         {
-           UserManager.currentUser = null;
+            if (sessions.ContainsKey(username))
+            {
+                sessions.Remove(username);
+            }
         }
 
         private void LoadUsersFromXml(string filePath)
         {
-            try
+            if (File.Exists(filePath))
             {
                 XDocument doc = XDocument.Load(filePath);
                 foreach (var userElement in doc.Root.Elements("User"))
@@ -63,10 +79,6 @@ namespace District_3_App.LogIn
                     };
                     users.Add(user);
                 }
-            }
-            catch
-            {
-                Console.WriteLine("File not found");
             }
         }
         public IReadOnlyList<User> GetUsers()

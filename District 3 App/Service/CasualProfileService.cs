@@ -34,7 +34,7 @@ namespace District_3_App.Service
             IReadOnlyList<User> users=userManager.GetUsers();
             foreach(User user in users)
             {
-                if (userManager.IsUserLoggedIn())
+                if (userManager.IsUserLoggedIn(user.username))
                     return user.id;
             }
             return new Guid("11111111-1111-1111-1111-111111111111");

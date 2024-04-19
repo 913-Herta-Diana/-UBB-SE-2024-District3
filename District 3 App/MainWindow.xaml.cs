@@ -24,6 +24,9 @@ using System.IO;
 
 namespace District_3_App
 {
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
     public partial class MainWindow : Window
     {
         private ProfileInfoSettings ProfileInfoSettings ;
@@ -218,7 +221,8 @@ namespace District_3_App
         }
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
-            userManager.LogOutUser();
+            //string username = userManager.currentUsername;
+            //userManager.LogOutUser(username);
             mainGrid.Children.Clear();
             var newContent = new SignUp();
             Grid.SetColumn(newContent, 2);

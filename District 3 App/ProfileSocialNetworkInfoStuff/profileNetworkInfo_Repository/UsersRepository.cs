@@ -24,11 +24,51 @@ namespace District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Reposi
             LoadUsersFromXml();
         }
 
+        //private void LoadUsersFromXml() 
+        //{
+        //    usersRepositoryList = new List<User>();
+        //    XDocument xDocument = XDocument.Load(filePath);
+        //    var users = xDocument.Descendants("User");
+        //    foreach (var user in users)
+        //    {
+        //        User newUser = new User
+        //        {
+        //            id = (Guid)user.Attribute("id"),
+        //            username = (string)user.Attribute("username"),
+        //            email = (string)user.Attribute("email"),
+        //            password = (string)user.Attribute("password"),
+        //            confirmationPassword = (string)user.Attribute("confirmationPassword")
+        //        };
+        //        usersRepositoryList.Add(newUser);
+        //    }
+
+
+        //}
         private void LoadUsersFromXml()
         {
+            //usersRepositoryList = new List<User>();
+            //if (File.Exists(filePath))
+            //{
+            //    XDocument doc = XDocument.Load(filePath);
+            //    foreach (var userElement in doc.Root.Elements("User"))
+            //    {
+            //        User user = new User
+            //        {
+            //            id = Guid.Parse(userElement.Attribute("id").Value),
+            //            username = userElement.Attribute("Username").Value,
+            //            email = userElement.Attribute("Email").Value,
+            //            password = userElement.Attribute("Password").Value,
+            //            confirmationPassword = userElement.Attribute("ConfirmationPassword").Value,
+            //            followingCount = (int)userElement.Attribute("Following"),
+            //            followersCount = (int)userElement.Attribute("Followers")
+            //        };
+            //        usersRepositoryList.Add(user);
+            //    }
+            //}
             try
             {
                 usersRepositoryList = new List<User>();
+
                 XDocument xDocument = XDocument.Load(filePath);
                 var users = xDocument.Descendants("User");
 
@@ -116,6 +156,7 @@ namespace District_3_App.ProfileSocialNetworkInfoStuff.profileNetworkInfo_Reposi
             }
             else
             {
+                // Handle user not found scenario
                 return -1; 
             }
         }
