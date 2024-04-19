@@ -65,7 +65,7 @@ namespace District_3_App.ExtraInfo
             // Authenticate user
             if (userManager.AuthenticateUser(username, password))
             {
-                bool isLoggedIn = userManager.IsUserLoggedIn();
+                bool isLoggedIn = userManager.IsUserLoggedIn(username);
 
                 if (isLoggedIn)
                 {
